@@ -1,0 +1,1568 @@
+{
+  "backends": [
+    {
+      "name": "whisper",
+      "caps_bitmask": 1370109,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "language-detect",
+        "translate",
+        "diarize",
+        "grammar",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download",
+        "parallel-processors",
+        "vad-internal"
+      ]
+    },
+    {
+      "name": "nemotron",
+      "caps_bitmask": 9185101,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download",
+        "streaming"
+      ]
+    },
+    {
+      "name": "gigaam",
+      "caps_bitmask": 271373,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "dolphin",
+      "caps_bitmask": 270848,
+      "caps": [
+        "beam-search",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "xasr",
+      "caps_bitmask": 270336,
+      "caps": [
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "parakeet",
+      "caps_bitmask": 1601357,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "phonon2",
+      "caps_bitmask": 1863501,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "punctuation-native",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "reazonspeech",
+      "caps_bitmask": 1601357,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "quds-fa",
+      "caps_bitmask": 1601357,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "canary",
+      "caps_bitmask": 1605487,
+      "caps": [
+        "timestamps-native",
+        "timestamps-ctc",
+        "word-timestamps",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "canary-qwen",
+      "caps_bitmask": 534280,
+      "caps": [
+        "token-confidence",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "index-echo",
+      "caps_bitmask": 1324337,
+      "caps": [
+        "timestamps-native",
+        "language-detect",
+        "translate",
+        "temperature",
+        "flash-attn",
+        "punctuation-native",
+        "src-tgt-language",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "lfm2-audio",
+      "caps_bitmask": 2695680,
+      "caps": [
+        "beam-search",
+        "auto-download",
+        "tts",
+        "s2s"
+      ]
+    },
+    {
+      "name": "mini-omni2",
+      "caps_bitmask": 2171136,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "s2s"
+      ]
+    },
+    {
+      "name": "cohere",
+      "caps_bitmask": 28493,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "granite",
+      "caps_bitmask": 32622,
+      "caps": [
+        "timestamps-ctc",
+        "word-timestamps",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "granite-4.1",
+      "caps_bitmask": 32622,
+      "caps": [
+        "timestamps-ctc",
+        "word-timestamps",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "granite-4.1-plus",
+      "caps_bitmask": 32622,
+      "caps": [
+        "timestamps-ctc",
+        "word-timestamps",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "granite-4.1-nar",
+      "caps_bitmask": 796226,
+      "caps": [
+        "timestamps-ctc",
+        "diarize",
+        "beam-search",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "voxtral",
+      "caps_bitmask": 1605482,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "voxtral4b",
+      "caps_bitmask": 28490,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "voxtral-tts",
+      "caps_bitmask": 73728,
+      "caps": [
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "qwen3",
+      "caps_bitmask": 32618,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "qwen3-1.7b",
+      "caps_bitmask": 32618,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "mega-asr",
+      "caps_bitmask": 32618,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "raon-speech",
+      "caps_bitmask": 32618,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "higgs-stt",
+      "caps_bitmask": 1582592,
+      "caps": [
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "fastconformer-ctc",
+      "caps_bitmask": 1597514,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "wav2vec2",
+      "caps_bitmask": 548938,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "hubert",
+      "caps_bitmask": 548938,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "data2vec",
+      "caps_bitmask": 548938,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "vibevoice",
+      "caps_bitmask": 336962,
+      "caps": [
+        "timestamps-ctc",
+        "diarize",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "vibevoice-streaming",
+      "caps_bitmask": 8660034,
+      "caps": [
+        "timestamps-ctc",
+        "diarize",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download",
+        "streaming"
+      ]
+    },
+    {
+      "name": "vibevoice-bitnet",
+      "caps_bitmask": 336962,
+      "caps": [
+        "timestamps-ctc",
+        "diarize",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "kugelaudio",
+      "caps_bitmask": 65536,
+      "caps": [
+        "tts"
+      ]
+    },
+    {
+      "name": "qwen3-tts",
+      "caps_bitmask": 8598784,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning",
+        "streaming"
+      ]
+    },
+    {
+      "name": "miotts",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "arktts",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "audio8-tts",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "bt2-tts",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "piano-transcription",
+      "caps_bitmask": 134225921,
+      "caps": [
+        "timestamps-native",
+        "auto-download",
+        "piano"
+      ]
+    },
+    {
+      "name": "basic-pitch",
+      "caps_bitmask": 134225921,
+      "caps": [
+        "timestamps-native",
+        "auto-download",
+        "piano"
+      ]
+    },
+    {
+      "name": "onsets-and-frames",
+      "caps_bitmask": 134225921,
+      "caps": [
+        "timestamps-native",
+        "auto-download",
+        "piano"
+      ]
+    },
+    {
+      "name": "hft-transformer",
+      "caps_bitmask": 134225921,
+      "caps": [
+        "timestamps-native",
+        "auto-download",
+        "piano"
+      ]
+    },
+    {
+      "name": "mt3",
+      "caps_bitmask": 134225921,
+      "caps": [
+        "timestamps-native",
+        "auto-download",
+        "piano"
+      ]
+    },
+    {
+      "name": "moss-tts",
+      "caps_bitmask": 206080,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "moss-tts-local",
+      "caps_bitmask": 206080,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "vibevoice-1.5b",
+      "caps_bitmask": 468034,
+      "caps": [
+        "timestamps-ctc",
+        "diarize",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "qwen3-tts-customvoice",
+      "caps_bitmask": 8467712,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "streaming"
+      ]
+    },
+    {
+      "name": "qwen3-tts-1.7b-base",
+      "caps_bitmask": 8598784,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning",
+        "streaming"
+      ]
+    },
+    {
+      "name": "qwen3-tts-1.7b-customvoice",
+      "caps_bitmask": 8467712,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "streaming"
+      ]
+    },
+    {
+      "name": "qwen3-tts-1.7b-voicedesign",
+      "caps_bitmask": 8467712,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "streaming"
+      ]
+    },
+    {
+      "name": "orpheus",
+      "caps_bitmask": 75008,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "lex-au-orpheus-de",
+      "caps_bitmask": 75008,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "kartoffel-orpheus-de-natural",
+      "caps_bitmask": 75008,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "kartoffel-orpheus-de-synthetic",
+      "caps_bitmask": 75008,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "chatterbox",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "chatterbox-turbo",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "chatterbox-nano",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "chatterbox-finnish-nano",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "kartoffelbox-turbo",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "lahgtna-chatterbox",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "tada",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "tada-1b",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "tada-tts-1b",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "tada-3b-ml",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "indextts",
+      "caps_bitmask": 206080,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "f5-tts",
+      "caps_bitmask": 204800,
+      "caps": [
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "raon",
+      "caps_bitmask": 204800,
+      "caps": [
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "pocket-tts",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "pocket-tts-de",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "pocket-tts-es",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "pocket-tts-it",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "pocket-tts-pt",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "pocket-tts-fr",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "fastpitch",
+      "caps_bitmask": 65536,
+      "caps": [
+        "tts"
+      ]
+    },
+    {
+      "name": "kokoro",
+      "caps_bitmask": 536944640,
+      "caps": [
+        "auto-download",
+        "tts",
+        "tts-speed"
+      ]
+    },
+    {
+      "name": "melotts",
+      "caps_bitmask": 65536,
+      "caps": [
+        "tts"
+      ]
+    },
+    {
+      "name": "piper",
+      "caps_bitmask": 65536,
+      "caps": [
+        "tts"
+      ]
+    },
+    {
+      "name": "outetts",
+      "caps_bitmask": 206080,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "voxcpm2-tts",
+      "caps_bitmask": 204800,
+      "caps": [
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "voxcpm2-vae",
+      "caps_bitmask": 2097152,
+      "caps": [
+        "s2s"
+      ]
+    },
+    {
+      "name": "cosyvoice3-tts",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "cosyvoice3-tts-rl",
+      "caps_bitmask": 210176,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "m2m100",
+      "caps_bitmask": 12832,
+      "caps": [
+        "translate",
+        "beam-search",
+        "src-tgt-language",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "m2m100-wmt21",
+      "caps_bitmask": 12832,
+      "caps": [
+        "translate",
+        "beam-search",
+        "src-tgt-language",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "hikari",
+      "caps_bitmask": 9179169,
+      "caps": [
+        "timestamps-native",
+        "translate",
+        "punctuation-native",
+        "src-tgt-language",
+        "streaming"
+      ]
+    },
+    {
+      "name": "marian",
+      "caps_bitmask": 4640,
+      "caps": [
+        "translate",
+        "beam-search",
+        "src-tgt-language"
+      ]
+    },
+    {
+      "name": "madlad",
+      "caps_bitmask": 12832,
+      "caps": [
+        "translate",
+        "beam-search",
+        "src-tgt-language",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "glm-asr",
+      "caps_bitmask": 16234,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "src-tgt-language",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "kyutai-stt",
+      "caps_bitmask": 12109,
+      "caps": [
+        "timestamps-native",
+        "word-timestamps",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "firered-asr",
+      "caps_bitmask": 534090,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "moonshine",
+      "caps_bitmask": 12106,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "moonshine-streaming",
+      "caps_bitmask": 272202,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "moonshine-tiny-de-dattazigzag",
+      "caps_bitmask": 12106,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "gemma4-e2b",
+      "caps_bitmask": 30562,
+      "caps": [
+        "timestamps-ctc",
+        "translate",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "src-tgt-language",
+        "auto-download",
+        "parallel-processors"
+      ]
+    },
+    {
+      "name": "omniasr",
+      "caps_bitmask": 10058,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "omniasr-300m",
+      "caps_bitmask": 10058,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "omniasr-llm",
+      "caps_bitmask": 10058,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "omniasr-llm-1b",
+      "caps_bitmask": 10058,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "mimo-asr",
+      "caps_bitmask": 272218,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "language-detect",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "ark-asr",
+      "caps_bitmask": 1582592,
+      "caps": [
+        "beam-search",
+        "flash-attn",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "hojo-asr",
+      "caps_bitmask": 270864,
+      "caps": [
+        "language-detect",
+        "beam-search",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "moss-audio",
+      "caps_bitmask": 271104,
+      "caps": [
+        "temperature",
+        "beam-search",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "moss-transcribe",
+      "caps_bitmask": 270848,
+      "caps": [
+        "beam-search",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "moss-diarize",
+      "caps_bitmask": 271169,
+      "caps": [
+        "timestamps-native",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "punctuation-native",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "funasr",
+      "caps_bitmask": 12106,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "fun-asr-mlt-nano",
+      "caps_bitmask": 12106,
+      "caps": [
+        "timestamps-ctc",
+        "token-confidence",
+        "diarize",
+        "temperature",
+        "beam-search",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "paraformer",
+      "caps_bitmask": 11330,
+      "caps": [
+        "timestamps-ctc",
+        "diarize",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "sensevoice",
+      "caps_bitmask": 11346,
+      "caps": [
+        "timestamps-ctc",
+        "language-detect",
+        "diarize",
+        "flash-attn",
+        "punctuation-toggle",
+        "auto-download"
+      ]
+    },
+    {
+      "name": "sidon",
+      "caps_bitmask": 2097152,
+      "caps": [
+        "s2s"
+      ]
+    },
+    {
+      "name": "bark",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "bark-tts",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "speecht5",
+      "caps_bitmask": 73728,
+      "caps": [
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "dia",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "dia-tts",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "dots-tts",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "fireredtts3",
+      "caps_bitmask": 73728,
+      "caps": [
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "confucius4-tts",
+      "caps_bitmask": 205056,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "irodori-tts",
+      "caps_bitmask": 204800,
+      "caps": [
+        "auto-download",
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "supertonic",
+      "caps_bitmask": 536944640,
+      "caps": [
+        "auto-download",
+        "tts",
+        "tts-speed"
+      ]
+    },
+    {
+      "name": "supertonic-tts",
+      "caps_bitmask": 536944640,
+      "caps": [
+        "auto-download",
+        "tts",
+        "tts-speed"
+      ]
+    },
+    {
+      "name": "parler-tts",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "zonos",
+      "caps_bitmask": 75008,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "zonos-tts",
+      "caps_bitmask": 75008,
+      "caps": [
+        "temperature",
+        "flash-attn",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "csm",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "csm-tts",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "sesame",
+      "caps_bitmask": 73984,
+      "caps": [
+        "temperature",
+        "auto-download",
+        "tts"
+      ]
+    },
+    {
+      "name": "bananamind-tts",
+      "caps_bitmask": 65536,
+      "caps": [
+        "tts"
+      ]
+    },
+    {
+      "name": "omnivoice",
+      "caps_bitmask": 196608,
+      "caps": [
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "omnivoice-singing",
+      "caps_bitmask": 196608,
+      "caps": [
+        "tts",
+        "voice-cloning"
+      ]
+    },
+    {
+      "name": "htdemucs",
+      "caps_bitmask": 5251072,
+      "caps": [
+        "auto-download",
+        "separate"
+      ]
+    },
+    {
+      "name": "mel-band-roformer",
+      "caps_bitmask": 5251072,
+      "caps": [
+        "auto-download",
+        "separate"
+      ]
+    },
+    {
+      "name": "mini-bs-roformer",
+      "caps_bitmask": 5251072,
+      "caps": [
+        "auto-download",
+        "separate"
+      ]
+    },
+    {
+      "name": "scnet",
+      "caps_bitmask": 5242880,
+      "caps": [
+        "separate"
+      ]
+    },
+    {
+      "name": "crepe",
+      "caps_bitmask": 17833984,
+      "caps": [
+        "auto-download",
+        "pitch"
+      ]
+    },
+    {
+      "name": "btc-chords",
+      "caps_bitmask": 34611200,
+      "caps": [
+        "auto-download",
+        "chords"
+      ]
+    },
+    {
+      "name": "tabcnn",
+      "caps_bitmask": 269492224,
+      "caps": [
+        "auto-download",
+        "tab"
+      ]
+    },
+    {
+      "name": "rvc-svc",
+      "caps_bitmask": 8192,
+      "caps": [
+        "auto-download"
+      ]
+    },
+    {
+      "name": "meanvc2",
+      "caps_bitmask": 3153920,
+      "caps": [
+        "auto-download",
+        "s2s"
+      ]
+    },
+    {
+      "name": "beat-this",
+      "caps_bitmask": 68165632,
+      "caps": [
+        "auto-download",
+        "beats"
+      ]
+    }
+  ]
+}

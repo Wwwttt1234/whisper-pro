@@ -1,0 +1,6139 @@
+[
+  {
+    "id": "hf:Systran/faster-whisper-tiny.en",
+    "name": "faster-whisper-tiny.en",
+    "repo": "Systran/faster-whisper-tiny.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "tiny.en"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 78090594,
+    "size_checked_at": 1794011853.8623636
+  },
+  {
+    "id": "hf:Systran/faster-whisper-tiny",
+    "name": "faster-whisper-tiny",
+    "repo": "Systran/faster-whisper-tiny",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "tiny"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 78203619,
+    "size_checked_at": 1794011854.7014968
+  },
+  {
+    "id": "hf:Systran/faster-whisper-base.en",
+    "name": "faster-whisper-base.en",
+    "repo": "Systran/faster-whisper-base.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "base.en"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 147769510,
+    "size_checked_at": 1794011855.9701161
+  },
+  {
+    "id": "hf:Systran/faster-whisper-base",
+    "name": "faster-whisper-base",
+    "repo": "Systran/faster-whisper-base",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "base"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "recommended": true,
+    "license": "mit",
+    "size": 147882941,
+    "size_checked_at": 1794011856.6452475
+  },
+  {
+    "id": "hf:Systran/faster-whisper-small.en",
+    "name": "faster-whisper-small.en",
+    "repo": "Systran/faster-whisper-small.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "small.en"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 486098798,
+    "size_checked_at": 1794011859.4271867
+  },
+  {
+    "id": "hf:Systran/faster-whisper-small",
+    "name": "faster-whisper-small",
+    "repo": "Systran/faster-whisper-small",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "small"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "recommended": true,
+    "license": "mit",
+    "size": 486212372,
+    "size_checked_at": 1794011860.3038516
+  },
+  {
+    "id": "hf:Systran/faster-whisper-medium.en",
+    "name": "faster-whisper-medium.en",
+    "repo": "Systran/faster-whisper-medium.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "medium.en"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 1530457748,
+    "size_checked_at": 1794011860.8229268
+  },
+  {
+    "id": "hf:Systran/faster-whisper-medium",
+    "name": "faster-whisper-medium",
+    "repo": "Systran/faster-whisper-medium",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "medium"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 1530571735,
+    "size_checked_at": 1794011861.5465577
+  },
+  {
+    "id": "hf:Systran/faster-whisper-large-v1",
+    "name": "faster-whisper-large-v1",
+    "repo": "Systran/faster-whisper-large-v1",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "large-v1"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 3089578414,
+    "size_checked_at": 1794011862.0915508
+  },
+  {
+    "id": "hf:Systran/faster-whisper-large-v2",
+    "name": "faster-whisper-large-v2",
+    "repo": "Systran/faster-whisper-large-v2",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "large-v2"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 3089578858,
+    "size_checked_at": 1794011862.519644
+  },
+  {
+    "id": "hf:Systran/faster-whisper-large-v3",
+    "name": "faster-whisper-large-v3",
+    "repo": "Systran/faster-whisper-large-v3",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "large",
+      "large-v3"
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su",
+      "yue"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 3090835702,
+    "size_checked_at": 1794011862.9915483
+  },
+  {
+    "id": "hf:Systran/faster-distil-whisper-large-v2",
+    "name": "faster-distil-whisper-large-v2",
+    "repo": "Systran/faster-distil-whisper-large-v2",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "distil-large-v2"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 1516108953,
+    "size_checked_at": 1794011863.4770856
+  },
+  {
+    "id": "hf:Systran/faster-distil-whisper-medium.en",
+    "name": "faster-distil-whisper-medium.en",
+    "repo": "Systran/faster-distil-whisper-medium.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "distil-medium.en"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 792060626,
+    "size_checked_at": 1794011863.954158
+  },
+  {
+    "id": "hf:Systran/faster-distil-whisper-small.en",
+    "name": "faster-distil-whisper-small.en",
+    "repo": "Systran/faster-distil-whisper-small.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "distil-small.en"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 335542354,
+    "size_checked_at": 1794011864.330965
+  },
+  {
+    "id": "hf:Systran/faster-distil-whisper-large-v3",
+    "name": "faster-distil-whisper-large-v3",
+    "repo": "Systran/faster-distil-whisper-large-v3",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "distil-large-v3"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 1516479628,
+    "size_checked_at": 1794011864.7718146
+  },
+  {
+    "id": "hf:distil-whisper/distil-large-v3.5-ct2",
+    "name": "distil-large-v3.5-ct2",
+    "repo": "distil-whisper/distil-large-v3.5-ct2",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "distil-large-v3.5"
+    ],
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 1516479656,
+    "size_checked_at": 1794011865.1955476
+  },
+  {
+    "id": "hf:mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+    "name": "faster-whisper-large-v3-turbo",
+    "repo": "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "faster_whisper",
+      "whisperx"
+    ],
+    "format": "ct2",
+    "family": "whisper",
+    "aliases": [
+      "large-v3-turbo",
+      "turbo"
+    ],
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 1621665983,
+    "size_checked_at": 1794011865.931792
+  },
+  {
+    "id": "openai:tiny.en",
+    "name": "tiny.en",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03/tiny.en.pt",
+    "sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+    "filename": "tiny.en.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "upstream_key": "tiny.en",
+    "size": 75571315,
+    "size_checked_at": 1794011866.8316355
+  },
+  {
+    "id": "openai:tiny",
+    "name": "tiny",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9/tiny.pt",
+    "sha256": "65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9",
+    "filename": "tiny.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "upstream_key": "tiny",
+    "size": 75572083,
+    "size_checked_at": 1794011867.7100828
+  },
+  {
+    "id": "openai:base.en",
+    "name": "base.en",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead/base.en.pt",
+    "sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+    "filename": "base.en.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "upstream_key": "base.en",
+    "size": 145261783,
+    "size_checked_at": 1794011868.5035093
+  },
+  {
+    "id": "openai:base",
+    "name": "base",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/ed3a0b6b1c0edf879ad9b11b1af5a0e6ab5db9205f891f668f8b0e6c6326e34e/base.pt",
+    "sha256": "ed3a0b6b1c0edf879ad9b11b1af5a0e6ab5db9205f891f668f8b0e6c6326e34e",
+    "filename": "base.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "upstream_key": "base",
+    "size": 145262807,
+    "size_checked_at": 1794011869.242462
+  },
+  {
+    "id": "openai:small.en",
+    "name": "small.en",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/f953ad0fd29cacd07d5a9eda5624af0f6bcf2258be67c92b79389873d91e0872/small.en.pt",
+    "sha256": "f953ad0fd29cacd07d5a9eda5624af0f6bcf2258be67c92b79389873d91e0872",
+    "filename": "small.en.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "upstream_key": "small.en",
+    "size": 483615683,
+    "size_checked_at": 1794011870.1685667
+  },
+  {
+    "id": "openai:small",
+    "name": "small",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/9ecf779972d90ba49c06d968637d720dd632c55bbf19d441fb42bf17a411e794/small.pt",
+    "sha256": "9ecf779972d90ba49c06d968637d720dd632c55bbf19d441fb42bf17a411e794",
+    "filename": "small.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "upstream_key": "small",
+    "size": 483617219,
+    "size_checked_at": 1794011871.0484703
+  },
+  {
+    "id": "openai:medium.en",
+    "name": "medium.en",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/d7440d1dc186f76616474e0ff0b3b6b879abc9d1a4926b7adfa41db2d497ab4f/medium.en.pt",
+    "sha256": "d7440d1dc186f76616474e0ff0b3b6b879abc9d1a4926b7adfa41db2d497ab4f",
+    "filename": "medium.en.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "upstream_key": "medium.en",
+    "size": 1528006491,
+    "size_checked_at": 1794011871.9166994
+  },
+  {
+    "id": "openai:medium",
+    "name": "medium",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/345ae4da62f9b3d59415adc60127b97c714f32e89e936602e85993674d08dcb1/medium.pt",
+    "sha256": "345ae4da62f9b3d59415adc60127b97c714f32e89e936602e85993674d08dcb1",
+    "filename": "medium.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "upstream_key": "medium",
+    "size": 1528008539,
+    "size_checked_at": 1794012074.0590801
+  },
+  {
+    "id": "openai:large-v1",
+    "name": "large-v1",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/e4b87e7e0bf463eb8e6956e646f1e277e901512310def2c24bf0e11bd3c28e9a/large-v1.pt",
+    "sha256": "e4b87e7e0bf463eb8e6956e646f1e277e901512310def2c24bf0e11bd3c28e9a",
+    "filename": "large-v1.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "upstream_key": "large-v1",
+    "size": 3086999982,
+    "size_checked_at": 1794012074.8293998
+  },
+  {
+    "id": "openai:large-v2",
+    "name": "large-v2",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/81f7c96c852ee8fc832187b0132e569d6c3065a3252ed18e56effd0b6a73e524/large-v2.pt",
+    "sha256": "81f7c96c852ee8fc832187b0132e569d6c3065a3252ed18e56effd0b6a73e524",
+    "filename": "large-v2.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "upstream_key": "large-v2",
+    "size": 3086999982,
+    "size_checked_at": 1794011891.325772
+  },
+  {
+    "id": "openai:large-v3",
+    "name": "large-v3",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/e5b1a55b89c1367dacf97e3e19bfd829a01529dbfdeefa8caeb59b3f1b81dadb/large-v3.pt",
+    "sha256": "e5b1a55b89c1367dacf97e3e19bfd829a01529dbfdeefa8caeb59b3f1b81dadb",
+    "filename": "large.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "aliases": [],
+    "upstream_key": "large-v3",
+    "size": 3087371615,
+    "size_checked_at": 1794011892.1401303
+  },
+  {
+    "id": "openai:large-v3-turbo",
+    "name": "large-v3-turbo",
+    "source": "url",
+    "url": "https://openaipublic.azureedge.net/main/whisper/models/aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a/large-v3-turbo.pt",
+    "sha256": "aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a",
+    "filename": "turbo.pt",
+    "engines": [
+      "openai_whisper"
+    ],
+    "format": "pt",
+    "family": "whisper",
+    "languages": [],
+    "aliases": [],
+    "upstream_key": "large-v3-turbo",
+    "size": 1617941637,
+    "size_checked_at": 1794011892.8818429
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-tiny.bin",
+    "name": "whisper.cpp · ggml-tiny",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-tiny.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 77691713
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-tiny-q5_1.bin",
+    "name": "whisper.cpp · ggml-tiny-q5_1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-tiny-q5_1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 32152673
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-tiny-q8_0.bin",
+    "name": "whisper.cpp · ggml-tiny-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-tiny-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 43537433
+  },
+  {
+    "id": "hf:openai/whisper-tiny",
+    "name": "whisper-tiny",
+    "repo": "openai/whisper-tiny",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "apache-2.0",
+    "size": 155434424,
+    "size_checked_at": 1794012075.3483481
+  },
+  {
+    "id": "hf:mlx-community/whisper-tiny-mlx",
+    "name": "whisper-tiny-mlx",
+    "repo": "mlx-community/whisper-tiny-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "",
+    "size": 74418802,
+    "size_checked_at": 1794011893.821078
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-tiny.en.bin",
+    "name": "whisper.cpp · ggml-tiny.en",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-tiny.en.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 77704715
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-tiny.en-q5_1.bin",
+    "name": "whisper.cpp · ggml-tiny.en-q5_1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-tiny.en-q5_1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 32166155
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-tiny.en-q8_0.bin",
+    "name": "whisper.cpp · ggml-tiny.en-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-tiny.en-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 43550795
+  },
+  {
+    "id": "hf:openai/whisper-tiny.en",
+    "name": "whisper-tiny.en",
+    "repo": "openai/whisper-tiny.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size": 154998742,
+    "size_checked_at": 1794012075.7872913
+  },
+  {
+    "id": "hf:mlx-community/whisper-tiny.en-mlx",
+    "name": "whisper-tiny.en-mlx",
+    "repo": "mlx-community/whisper-tiny.en-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "",
+    "size": 74418066,
+    "size_checked_at": 1794011894.6378171
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-base.bin",
+    "name": "whisper.cpp · ggml-base",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-base.bin",
+    "engines": [
+      "crisp",
+      "whisper_cpp"
+    ],
+    "format": "gguf",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "companions": [],
+    "source_revision": "main",
+    "license": "mit",
+    "aliases": [],
+    "size": 147951465
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-base-q5_1.bin",
+    "name": "whisper.cpp · ggml-base-q5_1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-base-q5_1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 59707625
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-base-q8_0.bin",
+    "name": "whisper.cpp · ggml-base-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-base-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 81768585
+  },
+  {
+    "id": "hf:openai/whisper-base",
+    "name": "whisper-base",
+    "repo": "openai/whisper-base",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "apache-2.0",
+    "size": 294776748,
+    "size_checked_at": 1794012076.2421908
+  },
+  {
+    "id": "hf:mlx-community/whisper-base-mlx",
+    "name": "whisper-base-mlx",
+    "repo": "mlx-community/whisper-base-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "",
+    "size": 143724466,
+    "size_checked_at": 1794011895.5774443
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-base.en.bin",
+    "name": "whisper.cpp · ggml-base.en",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-base.en.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 147964211
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-base.en-q5_1.bin",
+    "name": "whisper.cpp · ggml-base.en-q5_1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-base.en-q5_1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 59721011
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-base.en-q8_0.bin",
+    "name": "whisper.cpp · ggml-base.en-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-base.en-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 81781811
+  },
+  {
+    "id": "hf:openai/whisper-base.en",
+    "name": "whisper-base.en",
+    "repo": "openai/whisper-base.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size": 294340404,
+    "size_checked_at": 1794012076.718879
+  },
+  {
+    "id": "hf:mlx-community/whisper-base.en-mlx",
+    "name": "whisper-base.en-mlx",
+    "repo": "mlx-community/whisper-base.en-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "",
+    "size": 143723394,
+    "size_checked_at": 1794011896.5490458
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-small.bin",
+    "name": "whisper.cpp · ggml-small",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-small.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 487601967
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-small-q5_1.bin",
+    "name": "whisper.cpp · ggml-small-q5_1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-small-q5_1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 190085487
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-small-q8_0.bin",
+    "name": "whisper.cpp · ggml-small-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-small-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 264464607
+  },
+  {
+    "id": "hf:openai/whisper-small",
+    "name": "whisper-small",
+    "repo": "openai/whisper-small",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "apache-2.0",
+    "size": 971367937,
+    "size_checked_at": 1794012077.2221289
+  },
+  {
+    "id": "hf:mlx-community/whisper-small-mlx",
+    "name": "whisper-small-mlx",
+    "repo": "mlx-community/whisper-small-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "",
+    "size": 481307858,
+    "size_checked_at": 1794011897.4018888
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-small.en.bin",
+    "name": "whisper.cpp · ggml-small.en",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-small.en.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 487614201
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-small.en-q5_1.bin",
+    "name": "whisper.cpp · ggml-small.en-q5_1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-small.en-q5_1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 190098681
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-small.en-q8_0.bin",
+    "name": "whisper.cpp · ggml-small.en-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-small.en-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 264477561
+  },
+  {
+    "id": "hf:openai/whisper-small.en",
+    "name": "whisper-small.en",
+    "repo": "openai/whisper-small.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size": 970930930,
+    "size_checked_at": 1794012077.6270263
+  },
+  {
+    "id": "hf:mlx-community/whisper-small.en-mlx",
+    "name": "whisper-small.en-mlx",
+    "repo": "mlx-community/whisper-small.en-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "",
+    "size": 481306466,
+    "size_checked_at": 1794011898.5279968
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-medium.bin",
+    "name": "whisper.cpp · ggml-medium",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-medium.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 1533763059
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-medium-q8_0.bin",
+    "name": "whisper.cpp · ggml-medium-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-medium-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 823369779
+  },
+  {
+    "id": "hf:openai/whisper-medium",
+    "name": "whisper-medium",
+    "repo": "openai/whisper-medium",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "apache-2.0",
+    "size": 3059917072,
+    "size_checked_at": 1794012078.056016
+  },
+  {
+    "id": "hf:mlx-community/whisper-medium-mlx",
+    "name": "whisper-medium-mlx",
+    "repo": "mlx-community/whisper-medium-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "",
+    "size": 1524925180,
+    "size_checked_at": 1794011899.6840138
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-medium.en.bin",
+    "name": "whisper.cpp · ggml-medium.en",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-medium.en.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 1533774781
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-medium.en-q8_0.bin",
+    "name": "whisper.cpp · ggml-medium.en-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-medium.en-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "recommended": false,
+    "license": "mit",
+    "size": 823382461
+  },
+  {
+    "id": "hf:openai/whisper-medium.en",
+    "name": "whisper-medium.en",
+    "repo": "openai/whisper-medium.en",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size": 3059479148,
+    "size_checked_at": 1794012078.4690511
+  },
+  {
+    "id": "hf:mlx-community/whisper-medium.en-mlx",
+    "name": "whisper-medium.en-mlx",
+    "repo": "mlx-community/whisper-medium.en-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [
+      "en"
+    ],
+    "license": "",
+    "size": 1524923324,
+    "size_checked_at": 1794011900.7509794
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-large-v1.bin",
+    "name": "whisper.cpp · ggml-large-v1",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-large-v1.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 3094623691
+  },
+  {
+    "id": "hf:mlx-community/whisper-large-v1-mlx",
+    "name": "whisper-large-v1-mlx",
+    "repo": "mlx-community/whisper-large-v1-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "",
+    "size": 3083149468,
+    "size_checked_at": 1794011901.3600407
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-large-v2.bin",
+    "name": "whisper.cpp · ggml-large-v2",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-large-v2.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 3094623691
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-large-v2-q8_0.bin",
+    "name": "whisper.cpp · ggml-large-v2-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-large-v2-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 1656129691
+  },
+  {
+    "id": "hf:openai/whisper-large-v2",
+    "name": "whisper-large-v2",
+    "repo": "openai/whisper-large-v2",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "apache-2.0",
+    "size": 6177743461,
+    "size_checked_at": 1794012078.8793616
+  },
+  {
+    "id": "hf:mlx-community/whisper-large-v2-mlx",
+    "name": "whisper-large-v2-mlx",
+    "repo": "mlx-community/whisper-large-v2-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "",
+    "size": 3083149692,
+    "size_checked_at": 1794011902.2044652
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-large-v3.bin",
+    "name": "whisper.cpp · ggml-large-v3",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-large-v3.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 3095033483
+  },
+  {
+    "id": "hf:openai/whisper-large-v3",
+    "name": "whisper-large-v3",
+    "repo": "openai/whisper-large-v3",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "apache-2.0",
+    "size": 3091637657,
+    "size_checked_at": 1794012079.3039818
+  },
+  {
+    "id": "hf:mlx-community/whisper-large-v3-mlx",
+    "name": "whisper-large-v3-mlx",
+    "repo": "mlx-community/whisper-large-v3-mlx",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "mlx"
+    ],
+    "format": "mlx",
+    "family": "whisper",
+    "languages": [],
+    "license": "mit",
+    "size": 3083520685,
+    "size_checked_at": 1794011903.1539893
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-large-v3-turbo.bin",
+    "name": "whisper.cpp · ggml-large-v3-turbo",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-large-v3-turbo.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 1624555275
+  },
+  {
+    "id": "hf:ggerganov/whisper.cpp#ggml-large-v3-turbo-q8_0.bin",
+    "name": "whisper.cpp · ggml-large-v3-turbo-q8_0",
+    "repo": "ggerganov/whisper.cpp",
+    "source": "hf",
+    "filename": "ggml-large-v3-turbo-q8_0.bin",
+    "engines": [
+      "whisper_cpp",
+      "crisp"
+    ],
+    "format": "ggml",
+    "family": "whisper",
+    "languages": [],
+    "recommended": false,
+    "license": "mit",
+    "size": 874188075
+  },
+  {
+    "id": "hf:openai/whisper-large-v3-turbo",
+    "name": "whisper-large-v3-turbo",
+    "repo": "openai/whisper-large-v3-turbo",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "whisper",
+    "languages": [
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su"
+    ],
+    "license": "mit",
+    "size": 1622443339,
+    "size_checked_at": 1794012079.7102172
+  },
+  {
+    "id": "hf:Qwen/Qwen3-ASR-0.6B",
+    "name": "Qwen3-ASR-0.6B",
+    "repo": "Qwen/Qwen3-ASR-0.6B",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "qwen"
+    ],
+    "format": "qwen",
+    "family": "qwen3",
+    "languages": [
+      "zh",
+      "en",
+      "yue",
+      "ar",
+      "de",
+      "fr",
+      "es",
+      "pt",
+      "id",
+      "it",
+      "ko",
+      "ru",
+      "th",
+      "vi",
+      "ja",
+      "tr",
+      "hi",
+      "ms",
+      "nl",
+      "sv",
+      "da",
+      "fi",
+      "pl",
+      "cs",
+      "tl",
+      "fa",
+      "el",
+      "hu",
+      "mk",
+      "ro"
+    ],
+    "license": "apache-2.0",
+    "size": 1880560703,
+    "size_checked_at": 1794012080.1183538
+  },
+  {
+    "id": "hf:Qwen/Qwen3-ASR-1.7B",
+    "name": "Qwen3-ASR-1.7B",
+    "repo": "Qwen/Qwen3-ASR-1.7B",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "qwen"
+    ],
+    "format": "qwen",
+    "family": "qwen3",
+    "languages": [
+      "zh",
+      "en",
+      "yue",
+      "ar",
+      "de",
+      "fr",
+      "es",
+      "pt",
+      "id",
+      "it",
+      "ko",
+      "ru",
+      "th",
+      "vi",
+      "ja",
+      "tr",
+      "hi",
+      "ms",
+      "nl",
+      "sv",
+      "da",
+      "fi",
+      "pl",
+      "cs",
+      "tl",
+      "fa",
+      "el",
+      "hu",
+      "mk",
+      "ro"
+    ],
+    "license": "apache-2.0",
+    "size": 4703055333,
+    "size_checked_at": 1794012080.5158932
+  },
+  {
+    "id": "hf:FunAudioLLM/SenseVoiceSmall",
+    "name": "SenseVoiceSmall",
+    "repo": "FunAudioLLM/SenseVoiceSmall",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "funasr"
+    ],
+    "format": "funasr",
+    "family": "sensevoice",
+    "languages": [
+      "zh",
+      "en",
+      "ja",
+      "ko",
+      "yue",
+      "multilingual"
+    ],
+    "license": "other",
+    "size": 936671057,
+    "size_checked_at": 1794011904.8163161
+  },
+  {
+    "id": "hf:FunAudioLLM/Fun-ASR-Nano-2512",
+    "name": "Fun-ASR-Nano-2512",
+    "repo": "FunAudioLLM/Fun-ASR-Nano-2512",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "funasr"
+    ],
+    "format": "funasr",
+    "family": "funasr",
+    "languages": [
+      "zh",
+      "en",
+      "ja",
+      "ko",
+      "yue",
+      "vi",
+      "id",
+      "th",
+      "ms",
+      "tl",
+      "ar",
+      "hi",
+      "multilingual"
+    ],
+    "license": "apache-2.0",
+    "size": 1987942401,
+    "size_checked_at": 1794011905.2825997
+  },
+  {
+    "id": "hf:FunAudioLLM/Fun-ASR-MLT-Nano-2512",
+    "name": "Fun-ASR-MLT-Nano-2512",
+    "repo": "FunAudioLLM/Fun-ASR-MLT-Nano-2512",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "funasr"
+    ],
+    "format": "funasr",
+    "family": "funasr",
+    "languages": [
+      "zh",
+      "en",
+      "ja",
+      "ko",
+      "vi",
+      "id",
+      "th",
+      "ms",
+      "tl",
+      "ar",
+      "hi",
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "et",
+      "fi",
+      "el",
+      "hu",
+      "ga",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sl",
+      "sv",
+      "multilingual"
+    ],
+    "license": "apache-2.0",
+    "size": 1987883507,
+    "size_checked_at": 1794011905.803172
+  },
+  {
+    "id": "hf:nvidia/parakeet-tdt-0.6b-v2",
+    "name": "parakeet-tdt-0.6b-v2",
+    "repo": "nvidia/parakeet-tdt-0.6b-v2",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "nemo"
+    ],
+    "format": "nemo",
+    "family": "parakeet",
+    "license": "cc-by-4.0",
+    "languages": [
+      "en"
+    ],
+    "size": 2472222720,
+    "size_checked_at": 1794011906.5911107
+  },
+  {
+    "id": "hf:nvidia/parakeet-tdt-0.6b-v3",
+    "name": "parakeet-tdt-0.6b-v3",
+    "repo": "nvidia/parakeet-tdt-0.6b-v3",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "nemo"
+    ],
+    "format": "nemo",
+    "family": "parakeet",
+    "license": "cc-by-4.0",
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "et",
+      "fi",
+      "el",
+      "hu",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sl",
+      "sv",
+      "ru",
+      "uk"
+    ],
+    "size": 2509332480,
+    "size_checked_at": 1794011907.2241344
+  },
+  {
+    "id": "hf:nvidia/canary-1b-v2",
+    "name": "canary-1b-v2",
+    "repo": "nvidia/canary-1b-v2",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "nemo"
+    ],
+    "format": "nemo",
+    "family": "canary",
+    "license": "cc-by-4.0",
+    "languages": [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sl",
+      "es",
+      "sv",
+      "ru",
+      "uk"
+    ],
+    "size": 6358958080,
+    "size_checked_at": 1794011907.7770865
+  },
+  {
+    "id": "hf:facebook/wav2vec2-base-960h",
+    "name": "wav2vec2-base-960h",
+    "repo": "facebook/wav2vec2-base-960h",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "transformers"
+    ],
+    "format": "transformers",
+    "family": "wav2vec2",
+    "languages": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size": 377610353,
+    "size_checked_at": 1794012080.9016027
+  },
+  {
+    "id": "hf:Helsinki-NLP/opus-mt-en-ar",
+    "name": "opus-mt-en-ar",
+    "repo": "Helsinki-NLP/opus-mt-en-ar",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "translation"
+    ],
+    "format": "translation",
+    "family": "marian",
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "recommended": true,
+    "license": "apache-2.0",
+    "size": 309695510,
+    "size_checked_at": 1794012081.3340666
+  },
+  {
+    "id": "hf:tencent/Hy-MT2-1.8B",
+    "name": "Hy-MT2-1.8B",
+    "repo": "tencent/Hy-MT2-1.8B",
+    "source": "hf",
+    "filename": "",
+    "engines": [
+      "translation"
+    ],
+    "format": "translation",
+    "family": "causal",
+    "license": "apache-2.0",
+    "languages": [
+      "zh",
+      "en",
+      "fr",
+      "pt",
+      "es",
+      "ja",
+      "tr",
+      "ru",
+      "ar",
+      "ko",
+      "th",
+      "it",
+      "de",
+      "vi",
+      "ms",
+      "id",
+      "tl",
+      "hi",
+      "pl",
+      "cs",
+      "nl",
+      "km",
+      "my",
+      "fa",
+      "gu",
+      "ur",
+      "te",
+      "mr",
+      "he",
+      "bn",
+      "ta",
+      "uk",
+      "bo",
+      "kk",
+      "mn",
+      "ug"
+    ],
+    "size": 4086794528,
+    "size_checked_at": 1794012081.7464821
+  },
+  {
+    "id": "hf:cstr/tiron-GGML#tiron-q4_k.bin",
+    "name": "tiron-GGML · tiron-q4_k",
+    "repo": "cstr/tiron-GGML",
+    "source": "hf",
+    "filename": "tiron-q4_k.bin",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "tiron",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 889388615
+  },
+  {
+    "id": "hf:cstr/gigaam-v3-GGUF#gigaam-v3-e2e-rnnt-q8_0.gguf",
+    "name": "gigaam-v3-GGUF · gigaam-v3-e2e-rnnt-q8_0",
+    "repo": "cstr/gigaam-v3-GGUF",
+    "source": "hf",
+    "filename": "gigaam-v3-e2e-rnnt-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "gigaam",
+    "companions": [],
+    "source_revision": "main",
+    "license": "mit",
+    "recommended": false,
+    "languages": [
+      "ru"
+    ],
+    "size": 248765312
+  },
+  {
+    "id": "hf:cstr/nemotron-3.5-asr-streaming-GGUF#nemotron-3.5-asr-streaming-0.6b-f16.gguf",
+    "name": "nemotron-3.5-asr-streaming-GGUF · nemotron-3.5-asr-streaming-0.6b-f16",
+    "repo": "cstr/nemotron-3.5-asr-streaming-GGUF",
+    "source": "hf",
+    "filename": "nemotron-3.5-asr-streaming-0.6b-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "nemotron",
+    "companions": [],
+    "source_revision": "bbd95a9ca5fa0dfca3312a122dfc45a2b578b9c2",
+    "license": "openmdw-1.1",
+    "recommended": false,
+    "languages": [
+      "ar",
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "it",
+      "ja",
+      "ko",
+      "lt",
+      "lv",
+      "nb",
+      "nl",
+      "nn",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi",
+      "zh"
+    ],
+    "size": 1286368480
+  },
+  {
+    "id": "hf:cstr/parakeet-tdt-0.6b-v3-GGUF#parakeet-tdt-0.6b-v3-q4_k.gguf",
+    "name": "parakeet-tdt-0.6b-v3-GGUF · parakeet-tdt-0.6b-v3-q4_k",
+    "repo": "cstr/parakeet-tdt-0.6b-v3-GGUF",
+    "source": "hf",
+    "filename": "parakeet-tdt-0.6b-v3-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "parakeet",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-4.0",
+    "recommended": true,
+    "languages": [
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "hr",
+      "hu",
+      "it",
+      "lt",
+      "lv",
+      "mt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sv",
+      "uk"
+    ],
+    "size": 417894912
+  },
+  {
+    "id": "hf:cstr/quds-v4-fa-GGUF#quds-v4-fa-q8_0.gguf",
+    "name": "quds-v4-fa-GGUF · quds-v4-fa-q8_0",
+    "repo": "cstr/quds-v4-fa-GGUF",
+    "source": "hf",
+    "filename": "quds-v4-fa-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "quds-fa",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-nc-4.0",
+    "recommended": false,
+    "aliases": [],
+    "languages": [
+      "fa"
+    ],
+    "size": 127483168
+  },
+  {
+    "id": "hf:cstr/Haas-ja-v1.0-GGUF#haas-ja-v1.0-q8_0.gguf",
+    "name": "Haas-ja-v1.0-GGUF · haas-ja-v1.0-q8_0",
+    "repo": "cstr/Haas-ja-v1.0-GGUF",
+    "source": "hf",
+    "filename": "haas-ja-v1.0-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "haas-ja",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "aliases": [],
+    "languages": [
+      "ja"
+    ],
+    "size": 656182656
+  },
+  {
+    "id": "hf:cstr/Haas-ja-v1.0-GGUF#haas-ja-v1.0-q4_k.gguf",
+    "name": "Haas-ja-v1.0-GGUF · haas-ja-v1.0-q4_k",
+    "repo": "cstr/Haas-ja-v1.0-GGUF",
+    "source": "hf",
+    "filename": "haas-ja-v1.0-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "haas-ja",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "aliases": [],
+    "languages": [
+      "ja"
+    ],
+    "size": 386398272
+  },
+  {
+    "id": "hf:cstr/Haas-ja-v1.0-GGUF#haas-ja-v1.0-f16.gguf",
+    "name": "Haas-ja-v1.0-GGUF · haas-ja-v1.0-f16",
+    "repo": "cstr/Haas-ja-v1.0-GGUF",
+    "source": "hf",
+    "filename": "haas-ja-v1.0-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "haas-ja",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "aliases": [],
+    "languages": [
+      "ja"
+    ],
+    "size": 1232807488
+  },
+  {
+    "id": "hf:cstr/canary-1b-v2-GGUF#canary-1b-v2-q4_k.gguf",
+    "name": "canary-1b-v2-GGUF · canary-1b-v2-q4_k",
+    "repo": "cstr/canary-1b-v2-GGUF",
+    "source": "hf",
+    "filename": "canary-1b-v2-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "canary",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-4.0",
+    "recommended": false,
+    "languages": [
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "hr",
+      "hu",
+      "it",
+      "lt",
+      "lv",
+      "mt",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sv",
+      "uk"
+    ],
+    "size": 610746016
+  },
+  {
+    "id": "hf:cstr/canary-qwen-2.5b-GGUF#canary-qwen-2.5b-q8_0.gguf",
+    "name": "canary-qwen-2.5b-GGUF · canary-qwen-2.5b-q8_0",
+    "repo": "cstr/canary-qwen-2.5b-GGUF",
+    "source": "hf",
+    "filename": "canary-qwen-2.5b-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "canary-qwen",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-4.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 4376615264
+  },
+  {
+    "id": "hf:cstr/ark-asr-3b-GGUF#ark-asr-3b-q4_k.gguf",
+    "name": "ark-asr-3b-GGUF · ark-asr-3b-q4_k",
+    "repo": "cstr/ark-asr-3b-GGUF",
+    "source": "hf",
+    "filename": "ark-asr-3b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "ark-asr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en",
+      "de",
+      "ja",
+      "fr",
+      "ko",
+      "es",
+      "pl",
+      "it",
+      "ro",
+      "hu",
+      "cs",
+      "nl",
+      "fi",
+      "hr",
+      "sk",
+      "sl",
+      "et",
+      "lt"
+    ],
+    "size": 3519284928
+  },
+  {
+    "id": "hf:cstr/voxtral-mini-3b-2507-GGUF#voxtral-mini-3b-2507-q4_k.gguf",
+    "name": "voxtral-mini-3b-2507-GGUF · voxtral-mini-3b-2507-q4_k",
+    "repo": "cstr/voxtral-mini-3b-2507-GGUF",
+    "source": "hf",
+    "filename": "voxtral-mini-3b-2507-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "voxtral",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "pt",
+      "nl",
+      "hi"
+    ],
+    "size": 2652639968
+  },
+  {
+    "id": "hf:cstr/voxtral-mini-3b-2507-GGUF#voxtral-mini-3b-2507-q8_0.gguf",
+    "name": "voxtral-mini-3b-2507-GGUF · voxtral-mini-3b-2507-q8_0",
+    "repo": "cstr/voxtral-mini-3b-2507-GGUF",
+    "source": "hf",
+    "filename": "voxtral-mini-3b-2507-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "voxtral",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "pt",
+      "nl",
+      "hi"
+    ],
+    "size": 4986770144
+  },
+  {
+    "id": "hf:cstr/voxtral-mini-3b-2507-GGUF#voxtral-mini-3b-2507-f16.gguf",
+    "name": "voxtral-mini-3b-2507-GGUF · voxtral-mini-3b-2507-f16",
+    "repo": "cstr/voxtral-mini-3b-2507-GGUF",
+    "source": "hf",
+    "filename": "voxtral-mini-3b-2507-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "voxtral",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "pt",
+      "nl",
+      "hi"
+    ],
+    "size": 9363264128
+  },
+  {
+    "id": "hf:cstr/voxtral-mini-4b-realtime-GGUF#voxtral-mini-4b-realtime-q4_k.gguf",
+    "name": "voxtral-mini-4b-realtime-GGUF · voxtral-mini-4b-realtime-q4_k",
+    "repo": "cstr/voxtral-mini-4b-realtime-GGUF",
+    "source": "hf",
+    "filename": "voxtral-mini-4b-realtime-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "voxtral4b",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "es",
+      "de",
+      "ru",
+      "zh",
+      "ja",
+      "it",
+      "pt",
+      "nl",
+      "ar",
+      "hi",
+      "ko"
+    ],
+    "size": 2524137216
+  },
+  {
+    "id": "hf:cstr/voxtral-mini-4b-realtime-GGUF#voxtral-mini-4b-realtime-q8_0.gguf",
+    "name": "voxtral-mini-4b-realtime-GGUF · voxtral-mini-4b-realtime-q8_0",
+    "repo": "cstr/voxtral-mini-4b-realtime-GGUF",
+    "source": "hf",
+    "filename": "voxtral-mini-4b-realtime-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "voxtral4b",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "es",
+      "de",
+      "ru",
+      "zh",
+      "ja",
+      "it",
+      "pt",
+      "nl",
+      "ar",
+      "hi",
+      "ko"
+    ],
+    "size": 4733486848
+  },
+  {
+    "id": "hf:cstr/voxtral-mini-4b-realtime-GGUF#voxtral-mini-4b-realtime-f16.gguf",
+    "name": "voxtral-mini-4b-realtime-GGUF · voxtral-mini-4b-realtime-f16",
+    "repo": "cstr/voxtral-mini-4b-realtime-GGUF",
+    "source": "hf",
+    "filename": "voxtral-mini-4b-realtime-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "voxtral4b",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "es",
+      "de",
+      "ru",
+      "zh",
+      "ja",
+      "it",
+      "pt",
+      "nl",
+      "ar",
+      "hi",
+      "ko"
+    ],
+    "size": 8876017344
+  },
+  {
+    "id": "hf:cstr/granite-speech-5.0-2b-GGUF#granite-speech-5.0-2b-q4_k.gguf",
+    "name": "granite-speech-5.0-2b-GGUF · granite-speech-5.0-2b-q4_k",
+    "repo": "cstr/granite-speech-5.0-2b-GGUF",
+    "source": "hf",
+    "filename": "granite-speech-5.0-2b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "granite",
+    "companions": [],
+    "source_revision": "e1df7d2cabb0ddba9863d7fc90cb6e78e8f19a6d",
+    "license": "apache-2.0",
+    "recommended": false,
+    "size": 4074560192
+  },
+  {
+    "id": "hf:cstr/granite-speech-5.0-2b-GGUF#granite-speech-5.0-2b-f16.gguf",
+    "name": "granite-speech-5.0-2b-GGUF · granite-speech-5.0-2b-f16",
+    "repo": "cstr/granite-speech-5.0-2b-GGUF",
+    "source": "hf",
+    "filename": "granite-speech-5.0-2b-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "granite",
+    "companions": [],
+    "source_revision": "701f5529d8459412cc1b6053b5880c630125b138",
+    "license": "apache-2.0",
+    "recommended": false,
+    "size": 5581888128
+  },
+  {
+    "id": "hf:cstr/granite-speech-4.0-1b-GGUF#granite-speech-4.0-1b-q4_k.gguf",
+    "name": "granite-speech-4.0-1b-GGUF · granite-speech-4.0-1b-q4_k",
+    "repo": "cstr/granite-speech-4.0-1b-GGUF",
+    "source": "hf",
+    "filename": "granite-speech-4.0-1b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "granite",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt",
+      "ja"
+    ],
+    "size": 2941043072
+  },
+  {
+    "id": "hf:cstr/granite-speech-4.1-2b-GGUF#granite-speech-4.1-2b-q4_k.gguf",
+    "name": "granite-speech-4.1-2b-GGUF · granite-speech-4.1-2b-q4_k",
+    "repo": "cstr/granite-speech-4.1-2b-GGUF",
+    "source": "hf",
+    "filename": "granite-speech-4.1-2b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "granite-4.1",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt",
+      "ja"
+    ],
+    "size": 2941043168
+  },
+  {
+    "id": "hf:cstr/granite-speech-4.1-2b-plus-GGUF#granite-speech-4.1-2b-plus-q4_k.gguf",
+    "name": "granite-speech-4.1-2b-plus-GGUF · granite-speech-4.1-2b-plus-q4_k",
+    "repo": "cstr/granite-speech-4.1-2b-plus-GGUF",
+    "source": "hf",
+    "filename": "granite-speech-4.1-2b-plus-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "granite-4.1-plus",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt"
+    ],
+    "size": 2957822752
+  },
+  {
+    "id": "hf:cstr/granite-speech-4.1-2b-nar-GGUF#granite-speech-4.1-2b-nar-q4_k.gguf",
+    "name": "granite-speech-4.1-2b-nar-GGUF · granite-speech-4.1-2b-nar-q4_k",
+    "repo": "cstr/granite-speech-4.1-2b-nar-GGUF",
+    "source": "hf",
+    "filename": "granite-speech-4.1-2b-nar-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "granite-4.1-nar",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt"
+    ],
+    "size": 3413252640
+  },
+  {
+    "id": "hf:cstr/index-echo-2b-GGUF#index-echo-2b-q8_0.gguf",
+    "name": "index-echo-2b-GGUF · index-echo-2b-q8_0",
+    "repo": "cstr/index-echo-2b-GGUF",
+    "source": "hf",
+    "filename": "index-echo-2b-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "index-echo",
+    "companions": [
+      {
+        "repo": "cstr/index-echo-2b-GGUF",
+        "revision": "main",
+        "filename": "index-echo-2b-decoder-q8_0.gguf",
+        "name": "index-echo-2b-decoder-q8_0.gguf"
+      }
+    ],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en",
+      "ja",
+      "es"
+    ],
+    "size": 702951040
+  },
+  {
+    "id": "hf:cstr/index-echo-2b-GGUF#index-echo-2b-f16.gguf",
+    "name": "index-echo-2b-GGUF · index-echo-2b-f16",
+    "repo": "cstr/index-echo-2b-GGUF",
+    "source": "hf",
+    "filename": "index-echo-2b-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "index-echo",
+    "companions": [
+      {
+        "repo": "cstr/index-echo-2b-GGUF",
+        "revision": "main",
+        "filename": "index-echo-2b-decoder-f16.gguf",
+        "name": "index-echo-2b-decoder-f16.gguf"
+      }
+    ],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en",
+      "ja",
+      "es"
+    ],
+    "size": 1313848896
+  },
+  {
+    "id": "hf:cstr/index-echo-9b-GGUF#index-echo-9b-f16.gguf",
+    "name": "index-echo-9b-GGUF · index-echo-9b-f16",
+    "repo": "cstr/index-echo-9b-GGUF",
+    "source": "hf",
+    "filename": "index-echo-9b-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "index-echo",
+    "companions": [
+      {
+        "repo": "cstr/index-echo-9b-GGUF",
+        "revision": "main",
+        "filename": "index-echo-9b-decoder-f16.gguf",
+        "name": "index-echo-9b-decoder-f16.gguf"
+      }
+    ],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "size": 1313848736
+  },
+  {
+    "id": "hf:cstr/qwen3-asr-0.6b-GGUF#qwen3-asr-0.6b-q4_k.gguf",
+    "name": "qwen3-asr-0.6b-GGUF · qwen3-asr-0.6b-q4_k",
+    "repo": "cstr/qwen3-asr-0.6b-GGUF",
+    "source": "hf",
+    "filename": "qwen3-asr-0.6b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "qwen3",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fil",
+      "fr",
+      "hi",
+      "hu",
+      "id",
+      "it",
+      "ja",
+      "ko",
+      "mk",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "th",
+      "tr",
+      "vi",
+      "yue",
+      "zh"
+    ],
+    "size": 631026336
+  },
+  {
+    "id": "hf:cstr/qwen3-asr-1.7b-GGUF#qwen3-asr-1.7b-q4_k.gguf",
+    "name": "qwen3-asr-1.7b-GGUF · qwen3-asr-1.7b-q4_k",
+    "repo": "cstr/qwen3-asr-1.7b-GGUF",
+    "source": "hf",
+    "filename": "qwen3-asr-1.7b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "qwen3-1.7b",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "zh",
+      "ja",
+      "ko",
+      "de",
+      "fr",
+      "es",
+      "pt",
+      "ru",
+      "it"
+    ],
+    "size": 1490915200
+  },
+  {
+    "id": "hf:cstr/raon-speech-9b-GGUF#raon-speech-9b-q4_k.gguf",
+    "name": "raon-speech-9b-GGUF · raon-speech-9b-q4_k",
+    "repo": "cstr/raon-speech-9b-GGUF",
+    "source": "hf",
+    "filename": "raon-speech-9b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "raon-speech",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-nc-4.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "ko"
+    ],
+    "size": 4978430112
+  },
+  {
+    "id": "hf:cstr/higgs-audio-v3-stt-GGUF#higgs-stt-q4_k.gguf",
+    "name": "higgs-audio-v3-stt-GGUF · higgs-stt-q4_k",
+    "repo": "cstr/higgs-audio-v3-stt-GGUF",
+    "source": "hf",
+    "filename": "higgs-stt-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "higgs-stt",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 2431386016
+  },
+  {
+    "id": "hf:cstr/mega-asr-GGUF#mega-asr-1.7b-q4_k.gguf",
+    "name": "mega-asr-GGUF · mega-asr-1.7b-q4_k",
+    "repo": "cstr/mega-asr-GGUF",
+    "source": "hf",
+    "filename": "mega-asr-1.7b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "mega-asr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fa",
+      "fi",
+      "fil",
+      "fr",
+      "hi",
+      "hu",
+      "id",
+      "it",
+      "ja",
+      "ko",
+      "mk",
+      "ms",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "th",
+      "tr",
+      "vi",
+      "yue",
+      "zh"
+    ],
+    "size": 1334415232
+  },
+  {
+    "id": "hf:cstr/funasr-nano-GGUF#funasr-nano-2512-q8_0.gguf",
+    "name": "funasr-nano-GGUF · funasr-nano-2512-q8_0",
+    "repo": "cstr/funasr-nano-GGUF",
+    "source": "hf",
+    "filename": "funasr-nano-2512-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "funasr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "yue",
+      "en",
+      "ja",
+      "ko"
+    ],
+    "size": 1272658784
+  },
+  {
+    "id": "hf:cstr/sensevoice-small-GGUF#sensevoice-small-q4_k.gguf",
+    "name": "sensevoice-small-GGUF · sensevoice-small-q4_k",
+    "repo": "cstr/sensevoice-small-GGUF",
+    "source": "hf",
+    "filename": "sensevoice-small-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "sensevoice",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "yue",
+      "en",
+      "ja",
+      "ko"
+    ],
+    "size": 135553632
+  },
+  {
+    "id": "hf:cstr/sensevoice-small-GGUF#sensevoice-small-f16.gguf",
+    "name": "sensevoice-small-GGUF · sensevoice-small-f16",
+    "repo": "cstr/sensevoice-small-GGUF",
+    "source": "hf",
+    "filename": "sensevoice-small-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "sensevoice",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "yue",
+      "en",
+      "ja",
+      "ko"
+    ],
+    "size": 469402400
+  },
+  {
+    "id": "hf:cstr/sensevoice-small-GGUF#sensevoice-small-q8_0.gguf",
+    "name": "sensevoice-small-GGUF · sensevoice-small-q8_0",
+    "repo": "cstr/sensevoice-small-GGUF",
+    "source": "hf",
+    "filename": "sensevoice-small-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "sensevoice",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "yue",
+      "en",
+      "ja",
+      "ko"
+    ],
+    "size": 251674976
+  },
+  {
+    "id": "hf:cstr/paraformer-zh-GGUF#paraformer-zh-q4_k.gguf",
+    "name": "paraformer-zh-GGUF · paraformer-zh-q4_k",
+    "repo": "cstr/paraformer-zh-GGUF",
+    "source": "hf",
+    "filename": "paraformer-zh-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "paraformer",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 128687104
+  },
+  {
+    "id": "hf:cstr/paraformer-zh-GGUF#paraformer-zh-f16.gguf",
+    "name": "paraformer-zh-GGUF · paraformer-zh-f16",
+    "repo": "cstr/paraformer-zh-GGUF",
+    "source": "hf",
+    "filename": "paraformer-zh-f16.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "paraformer",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 441392832
+  },
+  {
+    "id": "hf:cstr/paraformer-zh-GGUF#paraformer-zh-q8_0.gguf",
+    "name": "paraformer-zh-GGUF · paraformer-zh-q8_0",
+    "repo": "cstr/paraformer-zh-GGUF",
+    "source": "hf",
+    "filename": "paraformer-zh-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "paraformer",
+    "companions": [],
+    "source_revision": "main",
+    "license": "other",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 237454336
+  },
+  {
+    "id": "hf:cstr/cohere-transcribe-03-2026-GGUF#cohere-transcribe-q4_k.gguf",
+    "name": "cohere-transcribe-03-2026-GGUF · cohere-transcribe-q4_k",
+    "repo": "cstr/cohere-transcribe-03-2026-GGUF",
+    "source": "hf",
+    "filename": "cohere-transcribe-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "cohere",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ar",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "vi",
+      "zh"
+    ],
+    "size": 1289178240
+  },
+  {
+    "id": "hf:cstr/cohere-transcribe-arabic-07-2026-GGUF#cohere-transcribe-arabic-q4_k-imatrix.gguf",
+    "name": "cohere-transcribe-arabic-07-2026-GGUF · cohere-transcribe-arabic-q4_k-imatrix",
+    "repo": "cstr/cohere-transcribe-arabic-07-2026-GGUF",
+    "source": "hf",
+    "filename": "cohere-transcribe-arabic-q4_k-imatrix.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "cohere",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ar"
+    ],
+    "size": 1510365440
+  },
+  {
+    "id": "hf:cstr/cohere-transcribe-arabic-07-2026-GGUF#cohere-transcribe-arabic-q4_k.gguf",
+    "name": "cohere-transcribe-arabic-07-2026-GGUF · cohere-transcribe-arabic-q4_k",
+    "repo": "cstr/cohere-transcribe-arabic-07-2026-GGUF",
+    "source": "hf",
+    "filename": "cohere-transcribe-arabic-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "cohere",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ar"
+    ],
+    "size": 1510365440
+  },
+  {
+    "id": "hf:cstr/cohere-transcribe-arabic-07-2026-GGUF#cohere-transcribe-arabic-q8_0.gguf",
+    "name": "cohere-transcribe-arabic-07-2026-GGUF · cohere-transcribe-arabic-q8_0",
+    "repo": "cstr/cohere-transcribe-arabic-07-2026-GGUF",
+    "source": "hf",
+    "filename": "cohere-transcribe-arabic-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "cohere",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ar"
+    ],
+    "size": 2423806208
+  },
+  {
+    "id": "hf:cstr/wav2vec2-large-xlsr-53-english-GGUF#wav2vec2-xlsr-en-q4_k.gguf",
+    "name": "wav2vec2-large-xlsr-53-english-GGUF · wav2vec2-xlsr-en-q4_k",
+    "repo": "cstr/wav2vec2-large-xlsr-53-english-GGUF",
+    "source": "hf",
+    "filename": "wav2vec2-xlsr-en-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "wav2vec2",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 221901472
+  },
+  {
+    "id": "hf:cstr/mimo-asr-GGUF#mimo-asr-q4_k.gguf",
+    "name": "mimo-asr-GGUF · mimo-asr-q4_k",
+    "repo": "cstr/mimo-asr-GGUF",
+    "source": "hf",
+    "filename": "mimo-asr-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "mimo-asr",
+    "companions": [
+      {
+        "repo": "cstr/mimo-tokenizer-GGUF",
+        "revision": "main",
+        "filename": "mimo-tokenizer-q4_k.gguf",
+        "name": "mimo-tokenizer-q4_k.gguf"
+      }
+    ],
+    "source_revision": "main",
+    "license": "mit",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 4517988832
+  },
+  {
+    "id": "hf:cstr/Hojo-ASR-Multi-V1-GGUF#hojo-asr-multi-v1-q4_k.gguf",
+    "name": "Hojo-ASR-Multi-V1-GGUF · hojo-asr-multi-v1-q4_k",
+    "repo": "cstr/Hojo-ASR-Multi-V1-GGUF",
+    "source": "hf",
+    "filename": "hojo-asr-multi-v1-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "hojo-asr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "de",
+      "fr",
+      "it",
+      "pt",
+      "es"
+    ],
+    "size": 4421831232
+  },
+  {
+    "id": "hf:cstr/MOSS-Audio-4B-Instruct-GGUF#moss-audio-4b-instruct-q4_k.gguf",
+    "name": "MOSS-Audio-4B-Instruct-GGUF · moss-audio-4b-instruct-q4_k",
+    "repo": "cstr/MOSS-Audio-4B-Instruct-GGUF",
+    "source": "hf",
+    "filename": "moss-audio-4b-instruct-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "moss-audio",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 4111365280
+  },
+  {
+    "id": "hf:cstr/MOSS-Transcribe-preview-2B-GGUF#moss-transcribe-preview-2b-q4_k.gguf",
+    "name": "MOSS-Transcribe-preview-2B-GGUF · moss-transcribe-preview-2b-q4_k",
+    "repo": "cstr/MOSS-Transcribe-preview-2B-GGUF",
+    "source": "hf",
+    "filename": "moss-transcribe-preview-2b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "moss-transcribe",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "size": 2818620352
+  },
+  {
+    "id": "hf:cstr/MOSS-Transcribe-Diarize-GGUF#moss-transcribe-diarize-0.9b-q4_k.gguf",
+    "name": "MOSS-Transcribe-Diarize-GGUF · moss-transcribe-diarize-0.9b-q4_k",
+    "repo": "cstr/MOSS-Transcribe-Diarize-GGUF",
+    "source": "hf",
+    "filename": "moss-transcribe-diarize-0.9b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "moss-diarize",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "zh",
+      "multilingual"
+    ],
+    "size": 1190110816
+  },
+  {
+    "id": "hf:cstr/omniASR-CTC-1B-v2-GGUF#omniasr-ctc-1b-v2-q4_k.gguf",
+    "name": "omniASR-CTC-1B-v2-GGUF · omniasr-ctc-1b-v2-q4_k",
+    "repo": "cstr/omniASR-CTC-1B-v2-GGUF",
+    "source": "hf",
+    "filename": "omniasr-ctc-1b-v2-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "omniasr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "multilingual"
+    ],
+    "size": 690689280
+  },
+  {
+    "id": "hf:cstr/hubert-large-ls960-ft-GGUF#hubert-large-ls960-ft-q4_k.gguf",
+    "name": "hubert-large-ls960-ft-GGUF · hubert-large-ls960-ft-q4_k",
+    "repo": "cstr/hubert-large-ls960-ft-GGUF",
+    "source": "hf",
+    "filename": "hubert-large-ls960-ft-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "hubert",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 222013600
+  },
+  {
+    "id": "hf:cstr/data2vec-audio-960h-GGUF#data2vec-audio-base-960h-q4_k.gguf",
+    "name": "data2vec-audio-960h-GGUF · data2vec-audio-base-960h-q4_k",
+    "repo": "cstr/data2vec-audio-960h-GGUF",
+    "source": "hf",
+    "filename": "data2vec-audio-base-960h-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "data2vec",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 82257248
+  },
+  {
+    "id": "hf:cstr/firered-asr2-aed-GGUF#firered-asr2-aed-q4_k.gguf",
+    "name": "firered-asr2-aed-GGUF · firered-asr2-aed-q4_k",
+    "repo": "cstr/firered-asr2-aed-GGUF",
+    "source": "hf",
+    "filename": "firered-asr2-aed-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "firered-asr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 962807328
+  },
+  {
+    "id": "hf:cstr/kyutai-stt-1b-GGUF#kyutai-stt-1b-q4_k.gguf",
+    "name": "kyutai-stt-1b-GGUF · kyutai-stt-1b-q4_k",
+    "repo": "cstr/kyutai-stt-1b-GGUF",
+    "source": "hf",
+    "filename": "kyutai-stt-1b-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "kyutai-stt",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-4.0",
+    "recommended": false,
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "size": 666565184
+  },
+  {
+    "id": "hf:cstr/glm-asr-nano-GGUF#glm-asr-nano-q4_k.gguf",
+    "name": "glm-asr-nano-GGUF · glm-asr-nano-q4_k",
+    "repo": "cstr/glm-asr-nano-GGUF",
+    "source": "hf",
+    "filename": "glm-asr-nano-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "glm-asr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "mit",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en",
+      "yue"
+    ],
+    "size": 1325316448
+  },
+  {
+    "id": "hf:cstr/moonshine-tiny-GGUF#moonshine-tiny-q4_k.gguf",
+    "name": "moonshine-tiny-GGUF · moonshine-tiny-q4_k",
+    "repo": "cstr/moonshine-tiny-GGUF",
+    "source": "hf",
+    "filename": "moonshine-tiny-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "moonshine",
+    "companions": [
+      {
+        "repo": "cstr/moonshine-tiny-GGUF",
+        "revision": "main",
+        "filename": "tokenizer.bin",
+        "name": "tokenizer.bin"
+      }
+    ],
+    "source_revision": "main",
+    "license": "mit",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 21199840
+  },
+  {
+    "id": "hf:cstr/moonshine-streaming-tiny-GGUF#moonshine-streaming-tiny-q4_k.gguf",
+    "name": "moonshine-streaming-tiny-GGUF · moonshine-streaming-tiny-q4_k",
+    "repo": "cstr/moonshine-streaming-tiny-GGUF",
+    "source": "hf",
+    "filename": "moonshine-streaming-tiny-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "moonshine-streaming",
+    "companions": [
+      {
+        "repo": "cstr/moonshine-streaming-tiny-GGUF",
+        "revision": "main",
+        "filename": "tokenizer.bin",
+        "name": "tokenizer.bin"
+      }
+    ],
+    "source_revision": "main",
+    "license": "mit",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 32052896
+  },
+  {
+    "id": "hf:cstr/stt-en-fastconformer-ctc-large-GGUF#stt-en-fastconformer-ctc-large-q4_k.gguf",
+    "name": "stt-en-fastconformer-ctc-large-GGUF · stt-en-fastconformer-ctc-large-q4_k",
+    "repo": "cstr/stt-en-fastconformer-ctc-large-GGUF",
+    "source": "hf",
+    "filename": "stt-en-fastconformer-ctc-large-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "fastconformer-ctc",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-4.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 73665760
+  },
+  {
+    "id": "hf:cstr/phonon2-GGUF#phonon2-q8_0.gguf",
+    "name": "phonon2-GGUF · phonon2-q8_0",
+    "repo": "cstr/phonon2-GGUF",
+    "source": "hf",
+    "filename": "phonon2-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "phonon2",
+    "companions": [],
+    "source_revision": "main",
+    "license": "cc-by-4.0",
+    "recommended": false,
+    "languages": [
+      "en"
+    ],
+    "size": 674342560
+  },
+  {
+    "id": "hf:cstr/dolphin-cn-dialect-small-streaming-GGUF#dolphin-cn-dialect-small-streaming-q4_k.gguf",
+    "name": "dolphin-cn-dialect-small-streaming-GGUF · dolphin-cn-dialect-small-streaming-q4_k",
+    "repo": "cstr/dolphin-cn-dialect-small-streaming-GGUF",
+    "source": "hf",
+    "filename": "dolphin-cn-dialect-small-streaming-q4_k.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "dolphin",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "zh"
+    ],
+    "size": 257562784
+  },
+  {
+    "id": "hf:cstr/x-asr-zh-en-GGUF#x-asr-zh-en-q8_0.gguf",
+    "name": "x-asr-zh-en-GGUF · x-asr-zh-en-q8_0",
+    "repo": "cstr/x-asr-zh-en-GGUF",
+    "source": "hf",
+    "filename": "x-asr-zh-en-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "xasr",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "size": 168189920
+  },
+  {
+    "id": "hf:cstr/reazonspeech-nemo-v2-GGUF#reazonspeech-nemo-v2-q8_0.gguf",
+    "name": "reazonspeech-nemo-v2-GGUF · reazonspeech-nemo-v2-q8_0",
+    "repo": "cstr/reazonspeech-nemo-v2-GGUF",
+    "source": "hf",
+    "filename": "reazonspeech-nemo-v2-q8_0.gguf",
+    "engines": [
+      "crisp"
+    ],
+    "format": "gguf",
+    "family": "reazonspeech",
+    "companions": [],
+    "source_revision": "main",
+    "license": "apache-2.0",
+    "recommended": false,
+    "languages": [
+      "ja"
+    ],
+    "size": 667147072
+  },
+  {
+    "id": "vosk:vosk-model-ar-0.22-linto-1.1.0",
+    "name": "vosk-model-ar-0.22-linto-1.1.0",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-ar-0.22-linto-1.1.0.zip",
+    "filename": "vosk-model-ar-0.22-linto-1.1.0.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "size": 1377395170,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-ar-tn-0.1-linto",
+    "name": "vosk-model-ar-tn-0.1-linto",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-ar-tn-0.1-linto.zip",
+    "filename": "vosk-model-ar-tn-0.1-linto.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "size": 543344119,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-br-0.8",
+    "name": "vosk-model-br-0.8",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-br-0.8.zip",
+    "filename": "vosk-model-br-0.8.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "br"
+    ],
+    "size": 81838714,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-cn-0.22",
+    "name": "vosk-model-cn-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-cn-0.22.zip",
+    "filename": "vosk-model-cn-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "cn"
+    ],
+    "size": 1358736686,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-de-0.21",
+    "name": "vosk-model-de-0.21",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-de-0.21.zip",
+    "filename": "vosk-model-de-0.21.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "de"
+    ],
+    "size": 2031717803,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-el-gr-0.7",
+    "name": "vosk-model-el-gr-0.7",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-el-gr-0.7.zip",
+    "filename": "vosk-model-el-gr-0.7.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "el"
+    ],
+    "size": 1115076503,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-en-gb-0.1",
+    "name": "vosk-model-en-gb-0.1",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-en-gb-0.1.zip",
+    "filename": "vosk-model-en-gb-0.1.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 295116674,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-en-in-0.5",
+    "name": "vosk-model-en-in-0.5",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-en-in-0.5.zip",
+    "filename": "vosk-model-en-in-0.5.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 971186187,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-en-us-0.22",
+    "name": "vosk-model-en-us-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-en-us-0.22.zip",
+    "filename": "vosk-model-en-us-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 1913365522,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-en-us-0.22-lgraph",
+    "name": "vosk-model-en-us-0.22-lgraph",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-en-us-0.22-lgraph.zip",
+    "filename": "vosk-model-en-us-0.22-lgraph.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 130557655,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-en-us-0.42-gigaspeech",
+    "name": "vosk-model-en-us-0.42-gigaspeech",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-en-us-0.42-gigaspeech.zip",
+    "filename": "vosk-model-en-us-0.42-gigaspeech.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 2423807363,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-es-0.42",
+    "name": "vosk-model-es-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-es-0.42.zip",
+    "filename": "vosk-model-es-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "es"
+    ],
+    "size": 1484681703,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-fa-0.42",
+    "name": "vosk-model-fa-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-fa-0.42.zip",
+    "filename": "vosk-model-fa-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "fa"
+    ],
+    "size": 1667089770,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-fr-0.22",
+    "name": "vosk-model-fr-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-fr-0.22.zip",
+    "filename": "vosk-model-fr-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "size": 1523026348,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-gu-0.42",
+    "name": "vosk-model-gu-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-gu-0.42.zip",
+    "filename": "vosk-model-gu-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "gu"
+    ],
+    "size": 750805731,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-hi-0.22",
+    "name": "vosk-model-hi-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-hi-0.22.zip",
+    "filename": "vosk-model-hi-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "hi"
+    ],
+    "size": 1561909274,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-it-0.22",
+    "name": "vosk-model-it-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-it-0.22.zip",
+    "filename": "vosk-model-it-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "it"
+    ],
+    "size": 1306765292,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-ja-0.22",
+    "name": "vosk-model-ja-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-ja-0.22.zip",
+    "filename": "vosk-model-ja-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ja"
+    ],
+    "size": 1045975323,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-ka-0.42",
+    "name": "vosk-model-ka-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-ka-0.42.zip",
+    "filename": "vosk-model-ka-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ka"
+    ],
+    "size": 733004425,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-ky-0.42",
+    "name": "vosk-model-ky-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-ky-0.42.zip",
+    "filename": "vosk-model-ky-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ky"
+    ],
+    "size": 1206525064,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-kz-0.42",
+    "name": "vosk-model-kz-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-kz-0.42.zip",
+    "filename": "vosk-model-kz-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "kz"
+    ],
+    "size": 1402452122,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-nl-spraakherkenning-0.6",
+    "name": "vosk-model-nl-spraakherkenning-0.6",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-nl-spraakherkenning-0.6.zip",
+    "filename": "vosk-model-nl-spraakherkenning-0.6.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "nl"
+    ],
+    "size": 1004206965,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-nl-spraakherkenning-0.6-lgraph",
+    "name": "vosk-model-nl-spraakherkenning-0.6-lgraph",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-nl-spraakherkenning-0.6-lgraph.zip",
+    "filename": "vosk-model-nl-spraakherkenning-0.6-lgraph.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "nl"
+    ],
+    "size": 105951663,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-pt-fb-v0.1.1-20220516_2113",
+    "name": "vosk-model-pt-fb-v0.1.1-20220516_2113",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-pt-fb-v0.1.1-20220516_2113.zip",
+    "filename": "vosk-model-pt-fb-v0.1.1-20220516_2113.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "pt"
+    ],
+    "size": 1693530883,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-pt-fb-v0.1.1-pruned",
+    "name": "vosk-model-pt-fb-v0.1.1-pruned",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-pt-fb-v0.1.1-pruned.zip",
+    "filename": "vosk-model-pt-fb-v0.1.1-pruned.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "pt"
+    ],
+    "size": 1223922169,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-ru-0.42",
+    "name": "vosk-model-ru-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-ru-0.42.zip",
+    "filename": "vosk-model-ru-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ru"
+    ],
+    "size": 1937602113,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ar-0.3",
+    "name": "vosk-model-small-ar-0.3",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ar-0.3.zip",
+    "filename": "vosk-model-small-ar-0.3.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "size": 104351896,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ar-tn-0.1-linto",
+    "name": "vosk-model-small-ar-tn-0.1-linto",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ar-tn-0.1-linto.zip",
+    "filename": "vosk-model-small-ar-tn-0.1-linto.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "size": 165703754,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ca-0.4",
+    "name": "vosk-model-small-ca-0.4",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ca-0.4.zip",
+    "filename": "vosk-model-small-ca-0.4.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ca"
+    ],
+    "size": 43405881,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-cn-0.22",
+    "name": "vosk-model-small-cn-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip",
+    "filename": "vosk-model-small-cn-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "cn"
+    ],
+    "size": 43898754,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-cs-0.4-rhasspy",
+    "name": "vosk-model-small-cs-0.4-rhasspy",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-cs-0.4-rhasspy.zip",
+    "filename": "vosk-model-small-cs-0.4-rhasspy.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "cs"
+    ],
+    "size": 46088666,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-de-0.15",
+    "name": "vosk-model-small-de-0.15",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-de-0.15.zip",
+    "filename": "vosk-model-small-de-0.15.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "de"
+    ],
+    "size": 46499967,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-en-gb-0.15",
+    "name": "vosk-model-small-en-gb-0.15",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-gb-0.15.zip",
+    "filename": "vosk-model-small-en-gb-0.15.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 42757500,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-en-in-0.4",
+    "name": "vosk-model-small-en-in-0.4",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-in-0.4.zip",
+    "filename": "vosk-model-small-en-in-0.4.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 37573330,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-en-us-0.15",
+    "name": "vosk-model-small-en-us-0.15",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+    "filename": "vosk-model-small-en-us-0.15.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 41205931,
+    "license": "",
+    "recommended": true
+  },
+  {
+    "id": "vosk:vosk-model-small-eo-0.42",
+    "name": "vosk-model-small-eo-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-eo-0.42.zip",
+    "filename": "vosk-model-small-eo-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "eo"
+    ],
+    "size": 43839401,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-es-0.42",
+    "name": "vosk-model-small-es-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-es-0.42.zip",
+    "filename": "vosk-model-small-es-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "es"
+    ],
+    "size": 39817833,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-fa-0.42",
+    "name": "vosk-model-small-fa-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-fa-0.42.zip",
+    "filename": "vosk-model-small-fa-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "fa"
+    ],
+    "size": 53431220,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-fr-0.22",
+    "name": "vosk-model-small-fr-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip",
+    "filename": "vosk-model-small-fr-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "size": 42233323,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-gu-0.42",
+    "name": "vosk-model-small-gu-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-gu-0.42.zip",
+    "filename": "vosk-model-small-gu-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "gu"
+    ],
+    "size": 108054987,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-hi-0.22",
+    "name": "vosk-model-small-hi-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-hi-0.22.zip",
+    "filename": "vosk-model-small-hi-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "hi"
+    ],
+    "size": 44458845,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-it-0.22",
+    "name": "vosk-model-small-it-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-it-0.22.zip",
+    "filename": "vosk-model-small-it-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "it"
+    ],
+    "size": 49665141,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ja-0.22",
+    "name": "vosk-model-small-ja-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ja-0.22.zip",
+    "filename": "vosk-model-small-ja-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ja"
+    ],
+    "size": 49704573,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ka-0.42",
+    "name": "vosk-model-small-ka-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ka-0.42.zip",
+    "filename": "vosk-model-small-ka-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ka"
+    ],
+    "size": 45682310,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ko-0.22",
+    "name": "vosk-model-small-ko-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ko-0.22.zip",
+    "filename": "vosk-model-small-ko-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ko"
+    ],
+    "size": 86914329,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ky-0.42",
+    "name": "vosk-model-small-ky-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ky-0.42.zip",
+    "filename": "vosk-model-small-ky-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ky"
+    ],
+    "size": 51041096,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-kz-0.42",
+    "name": "vosk-model-small-kz-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-kz-0.42.zip",
+    "filename": "vosk-model-small-kz-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "kz"
+    ],
+    "size": 59697294,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-nl-0.22",
+    "name": "vosk-model-small-nl-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-nl-0.22.zip",
+    "filename": "vosk-model-small-nl-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "nl"
+    ],
+    "size": 40441176,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-pl-0.22",
+    "name": "vosk-model-small-pl-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-pl-0.22.zip",
+    "filename": "vosk-model-small-pl-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "pl"
+    ],
+    "size": 52979372,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-pt-0.3",
+    "name": "vosk-model-small-pt-0.3",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-pt-0.3.zip",
+    "filename": "vosk-model-small-pt-0.3.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "pt"
+    ],
+    "size": 32453112,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-ru-0.22",
+    "name": "vosk-model-small-ru-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-ru-0.22.zip",
+    "filename": "vosk-model-small-ru-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ru"
+    ],
+    "size": 46236750,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-sv-rhasspy-0.15",
+    "name": "vosk-model-small-sv-rhasspy-0.15",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-sv-rhasspy-0.15.zip",
+    "filename": "vosk-model-small-sv-rhasspy-0.15.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "sv"
+    ],
+    "size": 303504931,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-te-0.42",
+    "name": "vosk-model-small-te-0.42",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-te-0.42.zip",
+    "filename": "vosk-model-small-te-0.42.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "te"
+    ],
+    "size": 60544249,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-tg-0.22",
+    "name": "vosk-model-small-tg-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-tg-0.22.zip",
+    "filename": "vosk-model-small-tg-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "tg"
+    ],
+    "size": 51879043,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-tr-0.3",
+    "name": "vosk-model-small-tr-0.3",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-tr-0.3.zip",
+    "filename": "vosk-model-small-tr-0.3.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "tr"
+    ],
+    "size": 36855784,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-uk-v3-small",
+    "name": "vosk-model-small-uk-v3-small",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-uk-v3-small.zip",
+    "filename": "vosk-model-small-uk-v3-small.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ua"
+    ],
+    "size": 143914407,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-uz-0.22",
+    "name": "vosk-model-small-uz-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-uz-0.22.zip",
+    "filename": "vosk-model-small-uz-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "uz"
+    ],
+    "size": 51061189,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-small-vn-0.4",
+    "name": "vosk-model-small-vn-0.4",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-small-vn-0.4.zip",
+    "filename": "vosk-model-small-vn-0.4.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "vn"
+    ],
+    "size": 33656337,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-spk-0.4",
+    "name": "vosk-model-spk-0.4",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-spk-0.4.zip",
+    "filename": "vosk-model-spk-0.4.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "all"
+    ],
+    "size": 13869103,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-tg-0.22",
+    "name": "vosk-model-tg-0.22",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-tg-0.22.zip",
+    "filename": "vosk-model-tg-0.22.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "tg"
+    ],
+    "size": 335635924,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-tl-ph-generic-0.6",
+    "name": "vosk-model-tl-ph-generic-0.6",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-tl-ph-generic-0.6.zip",
+    "filename": "vosk-model-tl-ph-generic-0.6.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "tl"
+    ],
+    "size": 329169068,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-tts-ru-0.1-tamara",
+    "name": "vosk-model-tts-ru-0.1-tamara",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-tts-ru-0.1-tamara.zip",
+    "filename": "vosk-model-tts-ru-0.1-tamara.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ru"
+    ],
+    "size": 74308520,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-tts-ru-0.4-irina",
+    "name": "vosk-model-tts-ru-0.4-irina",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-tts-ru-0.4-irina.zip",
+    "filename": "vosk-model-tts-ru-0.4-irina.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ru"
+    ],
+    "size": 121450024,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-tts-ru-0.4-natasha",
+    "name": "vosk-model-tts-ru-0.4-natasha",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-tts-ru-0.4-natasha.zip",
+    "filename": "vosk-model-tts-ru-0.4-natasha.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ru"
+    ],
+    "size": 121446822,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-tts-ru-0.9-multi",
+    "name": "vosk-model-tts-ru-0.9-multi",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-tts-ru-0.9-multi.zip",
+    "filename": "vosk-model-tts-ru-0.9-multi.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ru"
+    ],
+    "size": 782787154,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-uk-v3",
+    "name": "vosk-model-uk-v3",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-uk-v3.zip",
+    "filename": "vosk-model-uk-v3.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ua"
+    ],
+    "size": 371048965,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-uk-v3-lgraph",
+    "name": "vosk-model-uk-v3-lgraph",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-uk-v3-lgraph.zip",
+    "filename": "vosk-model-uk-v3-lgraph.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "ua"
+    ],
+    "size": 340762018,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "vosk:vosk-model-vn-0.4",
+    "name": "vosk-model-vn-0.4",
+    "source": "url",
+    "url": "https://alphacephei.com/vosk/models/vosk-model-vn-0.4.zip",
+    "filename": "vosk-model-vn-0.4.zip",
+    "format": "vosk",
+    "family": "vosk",
+    "engines": [
+      "vosk"
+    ],
+    "languages": [
+      "vn"
+    ],
+    "size": 74423562,
+    "license": "",
+    "recommended": false
+  },
+  {
+    "id": "hf:csukuangfj/sherpa-onnx-whisper-tiny.en",
+    "name": "sherpa-onnx-whisper-tiny.en",
+    "repo": "csukuangfj/sherpa-onnx-whisper-tiny.en",
+    "source": "hf",
+    "format": "onnx",
+    "family": "whisper",
+    "engines": [
+      "sherpa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 255778985,
+    "size_checked_at": 1794011909.400882
+  },
+  {
+    "id": "hf:csukuangfj/sherpa-onnx-moonshine-tiny-en-int8",
+    "name": "sherpa-onnx-moonshine-tiny-en-int8",
+    "repo": "csukuangfj/sherpa-onnx-moonshine-tiny-en-int8",
+    "source": "hf",
+    "format": "onnx",
+    "family": "moonshine",
+    "engines": [
+      "sherpa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 123967988,
+    "size_checked_at": 1794011909.858882
+  },
+  {
+    "id": "hf:csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26",
+    "name": "sherpa-onnx-streaming-zipformer-en-2023-06-26",
+    "repo": "csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26",
+    "source": "hf",
+    "format": "onnx",
+    "family": "transducer",
+    "engines": [
+      "sherpa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 676040919,
+    "size_checked_at": 1794011910.2899745
+  },
+  {
+    "id": "hf:csukuangfj/sherpa-onnx-zipformer-en-2023-06-26",
+    "name": "sherpa-onnx-zipformer-en-2023-06-26",
+    "repo": "csukuangfj/sherpa-onnx-zipformer-en-2023-06-26",
+    "source": "hf",
+    "format": "onnx",
+    "family": "transducer",
+    "engines": [
+      "sherpa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "size": 333275827,
+    "size_checked_at": 1794011910.7222142
+  },
+  {
+    "id": "hf:csukuangfj/sherpa-onnx-paraformer-zh-2023-03-28",
+    "name": "sherpa-onnx-paraformer-zh-2023-03-28",
+    "repo": "csukuangfj/sherpa-onnx-paraformer-zh-2023-03-28",
+    "source": "hf",
+    "format": "onnx",
+    "family": "paraformer",
+    "engines": [
+      "sherpa"
+    ],
+    "languages": [
+      "zh"
+    ],
+    "size": 1087282731,
+    "size_checked_at": 1794011911.1553404
+  },
+  {
+    "id": "hf:csukuangfj/sherpa-onnx-streaming-paraformer-zh",
+    "name": "sherpa-onnx-streaming-paraformer-zh",
+    "repo": "csukuangfj/sherpa-onnx-streaming-paraformer-zh",
+    "source": "hf",
+    "format": "onnx",
+    "family": "paraformer",
+    "engines": [
+      "sherpa"
+    ],
+    "languages": [
+      "zh"
+    ],
+    "size": 1102015422,
+    "size_checked_at": 1794011911.6224048
+  },
+  {
+    "id": "hf:tencent/Hy-MT2-1.8B-GGUF#Hy-MT2-1.8B-Q4_K_M.gguf",
+    "name": "Hy-MT2 1.8B · Q4_K_M",
+    "repo": "tencent/Hy-MT2-1.8B-GGUF",
+    "filename": "Hy-MT2-1.8B-Q4_K_M.gguf",
+    "source": "hf",
+    "format": "gguf",
+    "family": "causal",
+    "engines": [
+      "translation"
+    ],
+    "size": 1133080448,
+    "license": "apache-2.0",
+    "recommended": true
+  }
+]

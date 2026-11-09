@@ -1,0 +1,16 @@
+{
+  "pywhispercpp": "1.5.1",
+  "openai-whisper": "20250625",
+  "transformers": "5.22.2",
+  "nemo_toolkit": "3.0.0",
+  "qwen-asr": "0.0.6",
+  "funasr": "1.4.22",
+  "mlx-whisper": "0.4.3",
+  "vosk": "0.3.45",
+  "whisperx": "3.8.6",
+  "bournemouth-forced-aligner": "2.0.2",
+  "sherpa-onnx": "2.0.1",
+  "yt-dlp": "2026.10.26",
+  "llama-cpp-python": "0.3.36",
+  "faster-whisper": "1.2.1"
+}
