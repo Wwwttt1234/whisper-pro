@@ -1,5 +1,6 @@
 """Arabic desktop-local UI; all engine settings are capability-driven."""
 import copy
+import math
 import os
 import threading
 import time
@@ -415,13 +416,38 @@ def render_postprocessing(general, catalog):
         general["translation_temperature"] = controls.number_input("حرارة الترجمة", 0.0, 1.0, float(general["translation_temperature"]), step=0.05, help="ابدأ بصفر للحصول على ترجمة ثابتة وأقل عشوائية.")
 
 
+def clock_text(seconds):
+    hours, remainder = divmod(int(seconds), 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+
+
 @st.fragment(run_every=1)
 def render_jobs(manager, general):
+    st.html('<style>div[class*="st-key-transcript-"] {overscroll-behavior-y: contain;}</style>')
     for job in manager.snapshots()[::-1]:
-        with st.expander(f"{job['out_name']} · {STATUS.get(job['status'], job['status'])}", expanded=job["status"] not in TERMINAL):
-            st.progress(1.0 if job["status"] in {"completed", "no_speech"} else float(job.get("progress", 0)))
-            if job.get("stage"):
-                st.caption(job["stage"])
+        with st.expander(job["out_name"], expanded=True, key="job-" + job["id"]):
+            status = STATUS.get(job["status"], job["status"])
+            stage = job.get("stage") if job["status"] not in TERMINAL else None
+            st.caption(f"{status} · {stage}" if stage and stage != status else status)
+            elapsed, remaining, percent = st.columns(3)
+            estimate = job["remaining"]
+            waiting = "—" if job["status"] in TERMINAL or job["status"] == "queued" else "غير متاح حاليًا"
+            elapsed.metric("الوقت المستغرق", clock_text(job["elapsed"]), help="وقت العمل منذ بدء التجهيز، من دون انتظار الدور أو مدة الإيقاف المؤقت.")
+            remaining.metric("الوقت المتبقي تقديريًا", clock_text(math.ceil(estimate)) if estimate is not None else waiting, help="يُحسب أثناء التفريغ من سرعة تقدّم المحرك. قد يتغيّر مع اختلاف المقاطع، ولا يشمل مراحل المحاذاة والترجمة والحفظ.")
+            percent.metric("تقدّم المعالجة", f"{int(job['progress'] * 100)}%", help="تقدّم تقريبي عبر التجهيز والتفريغ والحفظ. يكتمل عند تسجيل النتيجة.")
+            st.progress(job["progress"])
+            result = job.get("result", {})
+            segments = job["live_segments"] or result.get("segments", [])
+            st.caption(f"المقاطع · {len(segments)}")
+            follow = st.toggle("متابعة آخر مقطع", key="follow:" + job["id"], help="فعّلها للانتقال إلى أحدث مقطع. أوقفها لتتصفح المقاطع القديمة داخل اللوحة.")
+            with st.container(height=320, autoscroll=follow, key="transcript-" + job["id"]):
+                if segments:
+                    text = "\n\n".join(f"{i}.  {clock_text(s['start'])} – {clock_text(s['end'])}\n{s['text'].strip()}" for i, s in enumerate(segments, 1))
+                    st.text(text)
+                else:
+                    message = "لا توجد مقاطع لعرضها." if job["status"] in TERMINAL else "ستظهر المقاطع هنا حين يرسلها المحرك. بعض المحركات ترسل دفعة كاملة."
+                    st.caption(message)
             if job["status"] in {"running", "paused"}:
                 c1, c2, c3 = st.columns(3)
                 if c1.button("استئناف" if job["status"] == "paused" else "إيقاف مؤقت", key="pause:" + job["id"], help="يوقف عملية هذا الملف وعملياتها التابعة؛ استأنف من النقطة نفسها."):
@@ -434,7 +460,6 @@ def render_jobs(manager, general):
                 manager.cancel(job["id"])
             if job.get("error"):
                 st.error(job["error"])
-            result = job.get("result", {})
             if job["status"] in {"completed", "no_speech"}:
                 if result.get("timestamp_quality") == "chunk" or result.get("estimated_splits"):
                     st.info("بعض حدود المقاطع تقديرية. استخدم المحاذاة ومراجعة الفيديو إذا احتجت توقيت كلمات أدق.")
@@ -460,6 +485,26 @@ def render_jobs(manager, general):
                             st.error(str(exc))
             if job.get("logs"):
                 st.code("\n".join(job["logs"][-35:]), language=None)
+
+
+@st.fragment(run_every=3)
+def render_history():
+    history = Database().get_file_history()
+    if not history:
+        st.info("سيظهر هنا سجل الملفات بعد معالجة أول ملف.")
+        return
+    rows = []
+    for record in history:
+        engine = record["engine"]
+        rows.append({
+            "الملف": record["file_name"],
+            "الوقت المستغرق (ثانية)": record["elapsed"],
+            "المحرك": ENGINES[engine].name if engine in ENGINES else "استخراج مسار الترجمة" if engine == "extract" else engine or "—",
+            "النموذج": record["model"] or "—",
+            "تاريخ ووقت المعالجة": record["created_at"],
+        })
+    st.caption("التاريخ والوقت بحسب ساعة الجهاز عند تسجيل النتيجة.")
+    st.dataframe(rows, hide_index=True, width="stretch", column_config={"الوقت المستغرق (ثانية)": st.column_config.NumberColumn(format="%.1f")})
 
 
 def main():
@@ -588,11 +633,7 @@ def main():
                 manager.cancel(job["id"])
         render_jobs(manager, general)
     with tabs[4]:
-        db = Database()
-        st.dataframe(db.get_sessions(limit=100), hide_index=True, width="stretch")
-        for session in db.get_sessions(limit=10):
-            with st.expander(str(session["created_at"]) + " · " + str(session["model"]) + " · " + str(session["status"])):
-                st.dataframe(db.get_files(session["id"]), hide_index=True, width="stretch")
+        render_history()
     with tabs[5]:
         st.write("ابدأ بمحرك Faster Whisper وCPU ودقةINT8 أو CrispASR مع نموذج صغير. اختر لغة الصوت، ثم صيغ الإخراج، وجرّب مقطعًا قصيرًا قبل الفيديو الطويل.")
         st.write("لكل محرك ملفات وأدوات مختلفة. تجهيز محرك اختياري لا يغير بيئة المحركات الأخرى. تتطلب بعض النماذج حسابًا وقبول شروط المصدر.")

@@ -133,6 +133,15 @@ def transcribe(engine, model_path, model, profile, general, wav_path, work_dir, 
     emit("log", message="تحميل النموذج " + model.get("name", ""))
     detected, confidence, quality = language or "unknown", None, "segment"
     segments = []
+
+    def publish(item):
+        if item["text"].strip():
+            emit("segment", start=item["start"], end=item["end"], text=item["text"])
+
+    def append_segment(item):
+        segments.append(item)
+        publish(item)
+
     if engine == "faster_whisper":
         import ctranslate2
         from faster_whisper import WhisperModel
@@ -154,8 +163,8 @@ def transcribe(engine, model_path, model, profile, general, wav_path, work_dir, 
         for item in generated:
             checkpoint()
             words = [timed_word(w.word, w.start, w.end, probability=float(w.probability)) for w in (item.words or [])]
-            segments.append(segment(item.start, item.end, item.text, words))
-            emit("progress", progress=min(0.95, item.end / max(duration, 0.01)), text=item.text)
+            append_segment(segment(item.start, item.end, item.text, words))
+            emit("progress", progress=item.end / max(duration, 0.01))
     elif engine == "crisp":
         output = Path(work_dir) / "native"
         args = native_command(binary, model_path, model, profile, general, wav_path, output)
@@ -183,6 +192,8 @@ def transcribe(engine, model_path, model, profile, general, wav_path, work_dir, 
             raise RuntimeError("\n".join(logs[-15:]))
         data = json.loads(output.with_suffix(".json").read_text(encoding="utf-8-sig"))
         segments = native_segments(data)
+        for item in segments:
+            publish(item)
         detected = (data.get("result") or {}).get("language", detected)
         quality = "word" if any(s["words"] for s in segments) else "segment"
     elif engine == "vosk":
@@ -195,7 +206,7 @@ def transcribe(engine, model_path, model, profile, general, wav_path, work_dir, 
             if not result.get("text", "").strip():
                 return
             words = [timed_word(w["word"], w["start"], w["end"], probability=w.get("conf")) for w in result.get("result", [])]
-            segments.append(segment(words[0]["start"] if words else fallback_start, words[-1]["end"] if words else fallback_end, result["text"], words))
+            append_segment(segment(words[0]["start"] if words else fallback_start, words[-1]["end"] if words else fallback_end, result["text"], words))
         with wave.open(str(wav_path), "rb") as reader:
             start = 0
             while raw := reader.readframes(4000):
@@ -224,6 +235,10 @@ def transcribe(engine, model_path, model, profile, general, wav_path, work_dir, 
         audio = np.concatenate([a for a, _, _ in audio_chunks(wav_path, 120, checkpoint)])
         data = instance.transcribe(audio, batch_size=profile.get("batch_size", 4), language=language, chunk_size=profile.get("chunk_seconds", 30))
         detected = data.get("language", detected)
+        for item in data["segments"]:
+            publish(item)
+        if profile.get("align_words", True) or profile.get("diarization"):
+            emit("phase", phase="postprocess")
         checkpoint()
         if profile.get("align_words", True):
             from core.paths import location
@@ -268,10 +283,10 @@ def transcribe(engine, model_path, model, profile, general, wav_path, work_dir, 
                 quality = "segment"
             for item in chunk_segments:
                 words = [timed_word(w.get("word", w.get("text", "")), offset + float(w["start"]), offset + float(w["end"])) for w in item.get("words", []) if w.get("start") is not None and w.get("end") is not None]
-                segments.append(segment(offset + max(0, float(item.get("start", 0))), offset + min(length, float(item.get("end", length))), item.get("text", ""), words, **({"speaker": str(item["speaker"])} if item.get("speaker") is not None else {})))
+                append_segment(segment(offset + max(0, float(item.get("start", 0))), offset + min(length, float(item.get("end", length))), item.get("text", ""), words, **({"speaker": str(item["speaker"])} if item.get("speaker") is not None else {})))
                 if words:
                     quality = "word"
-            emit("progress", progress=(offset + length) / max(duration, 0.01), text=data.get("text", ""))
+            emit("progress", progress=(offset + length) / max(duration, 0.01))
     if any(item.get("words") for item in segments):
         quality = "word"
     return {"segments": segments, "language": detected, "confidence": confidence, "duration": duration, "timestamp_quality": quality}

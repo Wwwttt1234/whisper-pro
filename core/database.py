@@ -219,6 +219,30 @@ class Database:
         finally:
             conn.close()
 
+    def get_file_history(self) -> List[Dict]:
+        """Return one row per file, including metadata stored on older sessions."""
+        conn = self._get_conn()
+        try:
+            rows = conn.execute("""
+                SELECT f.file_name, f.elapsed, f.created_at,
+                       COALESCE(NULLIF(f.model, ''), s.model) AS model, s.config_json
+                FROM files f JOIN sessions s ON s.id = f.session_id
+                ORDER BY f.created_at DESC, f.id DESC
+            """).fetchall()
+        finally:
+            conn.close()
+        history = []
+        for row in rows:
+            record = dict(row)
+            try:
+                config = json.loads(record.pop("config_json") or "{}")
+            except (ValueError, TypeError):
+                config = {}
+            engine = config.get("engine") if isinstance(config, dict) else None
+            record["engine"] = engine if isinstance(engine, str) else None
+            history.append(record)
+        return history
+
     def get_file(self, file_id: int) -> Optional[Dict]:
         """الحصول على ملف واحد"""
         conn = self._get_conn()

@@ -21,9 +21,15 @@ def execute(job_file):
     events = folder / "events.jsonl"
     control = folder / "control.json"
     started = time.time()
+    last_percent = {}
 
     def emit(kind, **values):
-        entry = {"kind": kind, "time": time.time(), **values}
+        if kind in {"decode", "progress"}:
+            percent = int(100 * max(0, min(1, values["progress"])))
+            if percent <= last_percent.get(kind, -1):
+                return
+            last_percent[kind] = percent
+        entry = {"kind": kind, "time": time.monotonic(), **values}
         with open(events, "a", encoding="utf-8") as stream:
             stream.write(json.dumps(entry, ensure_ascii=False, default=lambda v: v.item() if hasattr(v, "item") else str(v)) + "\n")
 
@@ -44,21 +50,25 @@ def execute(job_file):
             enable()
         checkpoint()
         if job.get("mode") == "extract":
+            emit("phase", phase="extract")
             segments = extract_subtitles(job["source"], job["subtitle_stream"], folder)
             result = {"segments": segments, "language": general.get("language", "unknown"), "duration": max((s["end"] for s in segments), default=0), "timestamp_quality": "embedded"}
         else:
             from engine.adapters import transcribe
             wav = folder / "audio.wav"
-            emit("log", message="قراءة مسار الصوت وتجهيزه")
+            emit("phase", phase="decode")
             duration = prepare_wav(job["source"], wav, general.get("audio_stream", 0), job.get("channel"), checkpoint, lambda p: emit("decode", progress=p))
             checkpoint()
+            emit("phase", phase="transcribe")
             result = transcribe(job["engine"], job["model_path"], job["model"], profile, general, wav, folder, emit, checkpoint, binary=job.get("native_binary"))
             result["duration"] = duration
             write_json(folder / "raw_transcript.json", result)
             if general.get("alignment", "none") != "none" or general.get("translation_engine", "none") != "none":
                 from engine.postprocess import run_stages
+                emit("phase", phase="postprocess")
                 result = run_stages(result, job, wav, folder, emit, checkpoint)
         checkpoint()
+        emit("phase", phase="export")
         segments, estimated = layout_segments(result["segments"], general)
         formats = {"out_" + fmt: True for fmt in general["formats"]}
         formats.update(output_suffix=general.get("output_suffix", ""), overwrite=general.get("overwrite", False))
