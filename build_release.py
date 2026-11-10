@@ -22,7 +22,7 @@ if staging.exists():
     shutil.rmtree(staging)
 payload = staging / "app"
 payload.mkdir(parents=True)
-for name in ["app.py", "launcher.py", "pyproject.toml", "uv.lock", "LICENSE", "README.md", "IMPLEMENTATION_REPORT_AR.md"]:
+for name in ["app.py", "launcher.py", "pyproject.toml", "uv.lock", "LICENSE", "README.md"]:
     shutil.copy2(ROOT / name, payload / name)
 for name in ["core", "engine", "ui", "utils"]:
     shutil.copytree(ROOT / name, payload / name, ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
@@ -39,7 +39,7 @@ with tempfile.TemporaryDirectory(dir=staging) as temporary:
     if actual["lock_sha256"] != hashlib.sha256((ROOT / "uv.lock").read_bytes()).hexdigest():
         raise RuntimeError("The built launcher contains a different dependency lock.")
 
-documents = ["LICENSE", "README.md", "GUIDE_AR.md", "SECURITY.md", "IMPLEMENTATION_REPORT_AR.md", "PROJECT_AUDIT_AR.md"]
+documents = ["LICENSE", "README.md", "GUIDE_AR.md", "SECURITY.md"]
 for name in documents:
     shutil.copy2(ROOT / name, dist / name)
 
